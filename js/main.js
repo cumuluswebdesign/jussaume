@@ -1,42 +1,46 @@
- /* Contact PopUp */
+// Logo hover
+$('#logo').hover(function() {
+	$(this).find('img').css('opacity', '1');
+},
+function() {
+	$(this).find('img').css('opacity', '0.5');
+});
+
+// Contact modal
 
 $('li#contact a').click(function () {
-   $('.popup-contact,.overlay').fadeIn(300);
+	$('.popup-contact,.overlay').fadeIn(300);
 });
-  
+	
 $('.overlay').click(function () {
-   $('.popup-contact,.overlay').fadeOut(300);
+	$('.popup-contact,.overlay').fadeOut(300);
 });
 
-/* About PopUp */
+// About modal
 
 $('li#about a').click(function () {
-   $('.popup-about,.overlay').fadeIn(300);
+	$('.popup-about,.overlay').fadeIn(300);
 });
-  
+	
 $('.overlay').click(function () {
-   $('.popup-about,.overlay').fadeOut(300);
+	$('.popup-about,.overlay').fadeOut(300);
 });
 
-/* Documentation PopUp */
+// Documentation modal
 
 $('li#documentation a').click(function () {
-   $('.popup-documentation,.overlay').fadeIn(300);
+	$('.popup-documentation,.overlay').fadeIn(300);
 });
-  
+	
 $('.overlay').click(function () {
-   $('.popup-documentation,.overlay').fadeOut(300);
+	$('.popup-documentation,.overlay').fadeOut(300);
 });
 
-/* Unslider */
+// Unslider
 
-$(function() {
-    $('.slider').unslider({
-    speed: 1000,               //  The speed to animate each slide (in milliseconds)
-    delay: 4000,              //  The delay between slide animations (in milliseconds)
-    complete: function() {},  //  A function that gets called after every slide animation
-    keys: false,               //  Enable keyboard (left, right) arrow shortcuts
-    dots: true,               //  Display dot navigation
-    fluid: false,              //  Support responsive design. May break non-responsive designs
-  });
+$('.slider').unslider({
+	speed: 1000,
+	delay: 3000,
+	keys: false,
+	dots: true
 });
