@@ -303,9 +303,9 @@ footer small {
 	text-align: center;
 }
 
-/* Collections */
+/* Sections */
 
-.collections-nav {
+.sections-nav {
 	overflow: auto;
 	width: 960px;
 	height: 187px;
@@ -315,7 +315,7 @@ footer small {
 	outline: 1px solid #e2e2e2;
 }
 
-.collection-item {
+.section {
 	width: 100px;
 	height: 162px;
 	margin-top: 25px;
@@ -323,31 +323,32 @@ footer small {
 	text-align: center;
 	float: left;
 	cursor: pointer;
+	opacity: 0.5;
 
-	-webkit-transition: all 90ms ease-in-out;
-	-moz-transition: all 90ms ease-in-out;
-	-ms-transition: all 90ms ease-in-out;
-	-o-transition: all 90ms ease-in-out;
-	transition: all 90ms ease-in-out;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
 }
 
-.collection-item-last {
+.section-last {
 	margin-right: 112px;
 }
 
-.collection-item p {
+.section p {
 	font-size: 16px;
 	color: #a6a6a6;
 	margin-top: 15px;
 
-	-webkit-transition: all 90ms ease-in-out;
-	-moz-transition: all 90ms ease-in-out;
-	-ms-transition: all 90ms ease-in-out;
-	-o-transition: all 90ms ease-in-out;
-	transition: all 90ms ease-in-out;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
 }
 
-.collection-item img {
+.section img {
 	width: 90px;
 	margin-top: 5px;
 	margin-bottom: 20px;
@@ -359,9 +360,11 @@ footer small {
 	transition: all 90ms ease-in-out;
 }
 
-.collection-image-container {
+.section-image-container {
 	height: 100px;
 }
+
+/* Collections */
 
 .collection-header {
 	height: 202px;
@@ -409,38 +412,6 @@ footer small {
 
 .last-row {
 	margin-bottom: 40px;
-}
-
-/* Materials */
-
-.materials-nav {
-	overflow: auto;
-	position: fixed;
-	top: 60px;
-	background-color:rgba(255,255,255,0.95);
-	outline: 1px solid #e2e2e2;
-}
-
-.materials-item {
-	width: 100px;
-	margin: 25px 0;
-	margin-left: 112px;
-	text-align: center;
-	float: left;
-}
-
-.materials-item-last {
-	margin-right: 112px;
-}
-
-.materials-item p {
-	font-size: 16px;
-	margin-top: 15px;
-	color: #a6a6a6;
-}
-
-.materials-item p a:hover {
-	color: #111;
 }
 
 /* Features */

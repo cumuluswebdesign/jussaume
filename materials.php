@@ -23,27 +23,43 @@
 
 		<div class="wrapper">
 			<div class="container" style="margin-top: 247px;">
-				<div class="materials-nav">
+				<div class="sections-nav">
 
-					<div class="materials-item">
-						<img src="img/material-batyline.png"><p>Batyline</p>
+					<div class="section" id="batyline-nav">
+					 	<div class="section-image-container">
+							<img src="img/material-batyline.png">
+						</div>
+
+						<p>Batyline</p>
 					</div>
 
-					<div class="materials-item">
-						<img src="img/material-teak.png"><p>Teak</p>
+					<div class="section" id="teak-nav">
+						<div class="section-image-container">
+							<img src="img/material-teak.png">
+						</div>
+
+						<p>Teak</p>
 					</div>
 
-					<div class="materials-item">
-						<img src="img/material-wicker.png"><p>Wicker</p>
+					<div class="section" id="wicker-nav">
+						<div class="section-image-container">
+							<img src="img/material-wicker.png">
+						</div>
+
+						<p>Wicker</p>
 					</div>
 
-					<div class="materials-item materials-item-last">
-						<img src="img/material-inox.png"><p>Inox</p>
+					<div class="section section-last" id="inox-nav">
+						<div class="section-image-container">
+							<img src="img/material-inox.png">
+						</div>
+						
+						<p>Inox</p>
 					</div>
 
 				</div>
 
-				<div class="material">
+				<div class="section-header material" id="batyline-header">
 					<div class="material-info">
 						<h4>Lorem Ipsum</h4>
 						<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor.</p>
@@ -52,7 +68,7 @@
 					<div class="material-image"><img src="img/material01.jpg"></div>
 				</div>
 
-				<div class="material-alt">
+				<div class="section-header material-alt" id="teak-header">
 					<div class="material-image-alt"><img src="img/material02.jpg"></img></div>
 					<div class="material-info-alt">
 						<h4>Lorem Ipsum</h4>
@@ -61,7 +77,7 @@
 					</div>
 				</div>
 
-				<div class="material">
+				<div class="section-header material" id="wicker-header">
 					<div class="material-info">
 						<h4>Lorem Ipsum</h4>
 						<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor.</p>
@@ -70,7 +86,7 @@
 					<div class="material-image"><img src="img/material03.jpg"></div>
 				</div>
 
-				<div class="material-alt">
+				<div class="section-header material-alt" id="inox-header">
 					<div class="material-image-alt"><img src="img/material04.jpg"></img></div>
 					<div class="material-info-alt">
 						<h4>Lorem Ipsum</h4>
@@ -86,5 +102,7 @@
 
 		<?php include 'includes/modals.php'; ?>
 		<?php include 'includes/scripts.php'; ?>
+
+		<script src="js/collections.js"></script>
 	</body>
 </html>

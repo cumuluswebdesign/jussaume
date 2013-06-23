@@ -27,7 +27,7 @@ function deEmphasizeNav($navElement, doResize) {
 function getCurrentlyViewedCollection() {
 	var currentlyViewedCollection = "";
 
-	$(".collection-header").each(function() {
+	$(".section-header").each(function() {
 		if ($(this).position().top - 247 < $(window).scrollTop()) {
 			currentlyViewedCollection = $(this).attr('id').split('-')[0];
 		}
@@ -37,7 +37,7 @@ function getCurrentlyViewedCollection() {
 }
 
 //Collection nav hover states
-$('.collection-item').hover(function() {
+$('.section').hover(function() {
 	emphasizeNav($(this), false);
 },
 function() {
@@ -48,7 +48,7 @@ function() {
 
 //Emphasize the currently viewed collection
 $(window).scroll(function() {
-	$(".collection-item").each(function() {
+	$(".section").each(function() {
 		if ($(this).attr('id').split('-')[0] === getCurrentlyViewedCollection()) {
 			emphasizeNav($(this), true);
 		}
@@ -58,7 +58,7 @@ $(window).scroll(function() {
 	});
 });
 
-$('.collection-item').each(function() {
+$('.section').each(function() {
 	$(this).click(function() {
 		$('html, body').animate({scrollTop: $('#' + $(this).attr('id').split('-')[0] + '-header').offset().top - 246});
 	});

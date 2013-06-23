@@ -1,4 +1,4 @@
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=958">
 
 <link rel="stylesheet" href="css/normalize.min.css">
 <link rel="stylesheet" href="css/main.css">
