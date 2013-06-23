@@ -35,7 +35,14 @@
 
 		<?php include 'includes/modals.php'; ?>
 		<?php include 'includes/scripts.php'; ?>
-		
-		<script src="js/home.js"></script>
+
+		<script>
+			$('.slider').unslider({
+				speed: 1000,
+				delay: 4000,
+				keys: false,
+				dots: true
+			});
+		</script>
 	</body>
 </html>
