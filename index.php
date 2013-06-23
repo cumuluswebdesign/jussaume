@@ -35,5 +35,7 @@
 
 		<?php include 'includes/modals.php'; ?>
 		<?php include 'includes/scripts.php'; ?>
+		
+		<script src="js/home.js"></script>
 	</body>
 </html>

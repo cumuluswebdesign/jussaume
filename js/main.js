@@ -35,12 +35,3 @@ $('li#documentation a').click(function () {
 $('.overlay').click(function () {
 	$('.popup-documentation,.overlay').fadeOut(300);
 });
-
-// Unslider
-
-$('.slider').unslider({
-	speed: 1000,
-	delay: 3000,
-	keys: false,
-	dots: true
-});
