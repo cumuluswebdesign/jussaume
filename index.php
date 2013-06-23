@@ -12,6 +12,7 @@
 		<?php include 'includes/head.php'; ?>
 	</head>
 	<body>
+		<?php $page = "home"; ?>
 		<?php include 'includes/header.php'; ?>
 
 		<div class="wrapper">
@@ -38,7 +39,7 @@
 
 		<script>
 			$('.slider').unslider({
-				speed: 1000,
+				speed: 800,
 				delay: 4000,
 				keys: false,
 				dots: true

@@ -270,16 +270,19 @@ nav ul li img {
 /* Footer */
 
 footer {
-	margin: 10px 0;
+	margin: 10px 0 20px 0;
 	padding: 10px;
 	font-size: 12px;
 	overflow: auto;
+	text-align: center;
 }
 
 footer ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	text-align: left;
+	margin-bottom: 20px;
 }
 
 footer ul li {
@@ -293,6 +296,11 @@ footer ul li a {
 
 footer ul li a:hover {
 	color: #111;
+}
+
+footer small {
+	color: #a6a6a6;
+	text-align: center;
 }
 
 /* Collections */

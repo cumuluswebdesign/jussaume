@@ -12,7 +12,7 @@
 		<?php include 'includes/head.php'; ?>
 	</head>
 	<body>
-
+		<?php $page = "collections"; ?>
 		<?php include 'includes/header.php'; ?>
 
 		<div class="wrapper">

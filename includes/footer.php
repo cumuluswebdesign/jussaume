@@ -8,4 +8,6 @@
 		<li id="footer-contact"><a>Contact</a></li>
 		<li style="float: right" id="documentation"><a>Documentation</a></li>
 	</ul>
+
+	<small>&copy; <?php echo date('Y'); ?> Jussaume Inc.</small>
 </footer>

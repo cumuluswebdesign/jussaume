@@ -18,6 +18,7 @@
 		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 	</head>
 	<body>
+		<?php $page = "materials"; ?>
 		<?php include 'includes/header.php'; ?>
 
 		<div class="wrapper">

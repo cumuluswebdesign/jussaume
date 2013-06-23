@@ -1,10 +1,12 @@
 // Logo hover
-$('#logo').hover(function() {
-	$(this).find('img').css('opacity', '1');
-},
-function() {
-	$(this).find('img').css('opacity', '0.5');
-});
+if (!$('#logo').find('img').hasClass('current-page')) {
+	$('#logo').hover(function() {
+		$(this).find('img').css('opacity', '1');
+	},
+	function() {
+		$(this).find('img').css('opacity', '0.5');
+	});
+}
 
 // Contact modal
 
