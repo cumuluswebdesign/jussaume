@@ -21,7 +21,7 @@
 					
 					 <div class="section" id="hampton-nav">
 					 	<div class="section-image-container">
-							<img src="img/collection01.png">
+							<img src="/img/collection01.png">
 						</div>
 
 						<p>Hampton</p>
@@ -29,7 +29,7 @@
 
 					<div class="section" id="manhattan-nav">
 						<div class="section-image-container">
-							<img src="img/collection02.png">
+							<img src="/img/collection02.png">
 						</div>
 
 						<p>Manhattan</p>
@@ -37,7 +37,7 @@
 
 					<div class="section" id="paris-nav">
 						<div class="section-image-container">
-							<img src="img/collection03.png">
+							<img src="/img/collection03.png">
 						</div>
 
 						<p>Paris</p>
@@ -45,7 +45,7 @@
 
 					<div class="section section-last" id="vancouver-nav">
 						<div class="section-image-container">
-							<img src="img/collection04.png">
+							<img src="/img/collection04.png">
 						</div>
 
 						<p>Vancouver</p>
@@ -55,10 +55,10 @@
 
 				<div class="section-header collection-header" id="hampton-header"><h3>Hampton</h3></div>
 
-				<div class="item"><a href="#"><img src="img/item/table01.jpg"></img></a></div>
-				<div class="item"><a href="#"><img src="img/item/chair01.jpg"></img></a></div>
-				<div class="item"><a href="#"><img src="img/item/chair02.jpg"></img></a></div>
-				<div class="item"><a href="#"><img src="img/item/chair03.jpg"></img></a></div>
+				<div class="item"><a href="#"><img src="/img/item/table01.jpg"></img></a></div>
+				<div class="item"><a href="#"><img src="/img/item/chair01.jpg"></img></a></div>
+				<div class="item"><a href="#"><img src="/img/item/chair02.jpg"></img></a></div>
+				<div class="item"><a href="#"><img src="/img/item/chair03.jpg"></img></a></div>
 
 				<div class="item"></div>
 				<div class="item"></div>
@@ -129,6 +129,6 @@
 		<?php include 'includes/modals.php'; ?>
 		<?php include 'includes/scripts.php'; ?>
 
-		<script src="js/collections.js"></script>
+		<script src="/js/collections.js"></script>
 	</body>
 </html>

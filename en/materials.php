@@ -8,14 +8,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Mobilier Jussaume | Materials</title>
 		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width">
-
-		<link rel="stylesheet" href="css/normalize.min.css">
-		<link rel="stylesheet" href="css/main.css">
-
-		<link rel="icon" type="image/png" href="img/favicon.png" />
-
-		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+		
+		<?php include 'includes/head.php'; ?>
 	</head>
 	<body>
 		<?php $page = "materials"; ?>
@@ -27,7 +21,7 @@
 
 					<div class="section" id="batyline-nav">
 					 	<div class="section-image-container">
-							<img src="img/material-batyline.png">
+							<img src="/img/material-batyline.png">
 						</div>
 
 						<p>Batyline</p>
@@ -35,7 +29,7 @@
 
 					<div class="section" id="teak-nav">
 						<div class="section-image-container">
-							<img src="img/material-teak.png">
+							<img src="/img/material-teak.png">
 						</div>
 
 						<p>Teak</p>
@@ -43,7 +37,7 @@
 
 					<div class="section" id="wicker-nav">
 						<div class="section-image-container">
-							<img src="img/material-wicker.png">
+							<img src="/img/material-wicker.png">
 						</div>
 
 						<p>Wicker</p>
@@ -51,7 +45,7 @@
 
 					<div class="section section-last" id="inox-nav">
 						<div class="section-image-container">
-							<img src="img/material-inox.png">
+							<img src="/img/material-inox.png">
 						</div>
 						
 						<p>Inox</p>
@@ -65,11 +59,11 @@
 						<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor.</p>
 						<p>Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
-					<div class="material-image"><img src="img/material01.jpg"></div>
+					<div class="material-image"><img src="/img/material01.jpg"></div>
 				</div>
 
 				<div class="section-header material-alt" id="teak-header">
-					<div class="material-image-alt"><img src="img/material02.jpg"></img></div>
+					<div class="material-image-alt"><img src="/img/material02.jpg"></img></div>
 					<div class="material-info-alt">
 						<h4>Lorem Ipsum</h4>
 						<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor.</p>
@@ -83,11 +77,11 @@
 						<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor.</p>
 						<p class="last-text">Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
-					<div class="material-image"><img src="img/material03.jpg"></div>
+					<div class="material-image"><img src="/img/material03.jpg"></div>
 				</div>
 
 				<div class="section-header material-alt" id="inox-header">
-					<div class="material-image-alt"><img src="img/material04.jpg"></img></div>
+					<div class="material-image-alt"><img src="/img/material04.jpg"></img></div>
 					<div class="material-info-alt">
 						<h4>Lorem Ipsum</h4>
 						<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor.</p>
@@ -103,6 +97,6 @@
 		<?php include 'includes/modals.php'; ?>
 		<?php include 'includes/scripts.php'; ?>
 
-		<script src="js/collections.js"></script>
+		<script src="/js/collections.js"></script>
 	</body>
 </html>
