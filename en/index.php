@@ -10,6 +10,12 @@
 		<meta name="description" content="">
 		
 		<?php include '../includes/head.php'; ?>
+
+		<style>
+			nav {position: relative; top: -35px;}
+			nav, .slider, .content-box {opacity: 0;}
+			footer {display: none;}
+		</style>
 	</head>
 	<body>
 		<?php $page = "home"; ?>
@@ -44,6 +50,10 @@
 				keys: false,
 				dots: true
 			});
+
+			$('nav').css('top', '0');
+			$('nav, .slider, .content-box').css('opacity', '1');
+			$('footer').slideDown();
 		</script>
 	</body>
 </html>

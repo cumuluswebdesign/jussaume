@@ -22,7 +22,7 @@
 			<img src="img/logo.svg" id="main-logo">
 			<ul id="language-select">
 				<li class="language"><a id="en-link">English</a></li>
-				<li class="language" style="margin: 0"><a id="fr-link">Francais</a></li>
+				<li class="language" style="margin: 0"><a id="fr-link">Français</a></li>
 			</ul>
 		</div>
 
