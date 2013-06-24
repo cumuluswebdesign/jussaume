@@ -9,11 +9,11 @@
 		<title>Mobilier Jussaume | Home</title>
 		<meta name="description" content="">
 		
-		<?php include 'includes/head.php'; ?>
+		<?php include '../includes/head.php'; ?>
 	</head>
 	<body>
 		<?php $page = "home"; ?>
-		<?php include '../includes/header.php'; ?>
+		<?php include 'includes/header.php'; ?>
 
 		<div class="wrapper">
 			<div class="container">
