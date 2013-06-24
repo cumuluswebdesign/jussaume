@@ -8,32 +8,13 @@ if (!$('#logo').find('img').hasClass('current-page')) {
 	});
 }
 
-// Contact modal
-
-$('li#contact a').click(function () {
-	$('.popup-contact,.overlay').fadeIn(300);
-});
-	
-$('.overlay').click(function () {
-	$('.popup-contact,.overlay').fadeOut(300);
+// Modals
+$('[class^=modal-link-]').each(function() {
+	$(this).click(function() {
+		$('#modal-' + $(this).attr('class').split('-')[2] + ', #overlay').fadeIn(300);
+	});
 });
 
-// About modal
-
-$('li#about a').click(function () {
-	$('.popup-about,.overlay').fadeIn(300);
-});
-	
-$('.overlay').click(function () {
-	$('.popup-about,.overlay').fadeOut(300);
-});
-
-// Documentation modal
-
-$('li#documentation a').click(function () {
-	$('.popup-documentation,.overlay').fadeIn(300);
-});
-	
-$('.overlay').click(function () {
-	$('.popup-documentation,.overlay').fadeOut(300);
+$('#overlay').click(function() {
+	$('.modal, #overlay').fadeOut(300);
 });

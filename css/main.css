@@ -505,7 +505,7 @@ footer small {
 
 /* Pop Up */
 
-.overlay {
+#overlay {
 	position:fixed;
 	top:0;
 	left:0;
@@ -518,7 +518,7 @@ footer small {
 	display:none;
 }
 
-.popup-contact {
+.modal {
 	display: none;
 	position: fixed;
 	top: 50%;
@@ -536,57 +536,17 @@ footer small {
 	margin: -210px 0 0 -390px;
 }
 
-li#contact a, li#about a, li#documentation {
-	cursor: pointer;
-}
-
-.popup-contact h3, .popup-about h3, .popup-documentation h3 {
+.modal h3 {
 	margin: 0;
 	margin-bottom: 20px;
 	font-size: 16px;
 	color: #111;
 }
 
-.popup-contact p, .popup-about p, .popup-documentation {
+#modal-contact p, #modal-about p, #modal-documentation {
 	font-size: 14px;
 	color: #666666;
 	line-height: 1.6;
-}
-
-.popup-about {
-	display: none;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	background: white; 
-	width: 780px;
-	height: 420px;
-	z-index: 1000;
-	background-color:rgba(255,255,255,0.9);
-	padding: 40px;
-	margin: 0 auto;
-	-moz-box-shadow: 0 0 8px rgba(4,4,4,.3);
-	-webkit-box-shadow: 0 0 8px rgba(4,4,4,.3);
-	box-shadow: 0 0 8px rgba(4,4,4,.3);
-	margin: -210px 0 0 -390px;
-}
-
-.popup-documentation {
-	display: none;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	background: white; 
-	width: 780px;
-	height: 420px;
-	z-index: 1000;
-	background-color:rgba(255,255,255,0.9);
-	padding: 40px;
-	margin: 0 auto;
-	-moz-box-shadow: 0 0 8px rgba(4,4,4,.3);
-	-webkit-box-shadow: 0 0 8px rgba(4,4,4,.3);
-	box-shadow: 0 0 8px rgba(4,4,4,.3);
-	margin: -210px 0 0 -390px;
 }
 
 /* Landing Page */

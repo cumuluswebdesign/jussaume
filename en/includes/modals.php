@@ -1,6 +1,6 @@
-<div class="overlay"></div>
+<div id="overlay"></div>
 
-<div class="popup-contact">
+<div id="modal-contact" class="modal">
 	<h3>Contact</h3>
 	<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
   <form id="contact" method="post" action="">
@@ -16,12 +16,12 @@
   </form>
 </div>
 
-<div class="popup-about">
+<div id="modal-about" class="modal">
 	<h3>About</h3>
 	<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
 </div>
 
-<div class="popup-documentation">
+<div id="modal-documentation" class="modal">
 	<h3>Documentation</h3>
 	<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
 </div>
