@@ -9,7 +9,7 @@
 		<title>Mobilier Jussaume | Materials</title>
 		<meta name="description" content="">
 		
-		<?php include 'includes/head.php'; ?>
+		<?php include '../includes/head.php'; ?>
 	</head>
 	<body>
 		<?php $page = "materials"; ?>
