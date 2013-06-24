@@ -12,9 +12,8 @@
 		<?php include '../includes/head.php'; ?>
 
 		<style>
-			nav {position: relative; top: -35px;}
 			nav, .slider, .content-box {opacity: 0;}
-			footer {display: none;}
+			.container {height: 1540px;}
 		</style>
 	</head>
 	<body>
@@ -44,6 +43,8 @@
 		<?php include 'includes/scripts.php'; ?>
 
 		<script>
+			$('.container').height($(window).height() - 60);
+
 			$('.slider').unslider({
 				speed: 800,
 				delay: 4000,
@@ -51,9 +52,8 @@
 				dots: true
 			});
 
-			$('nav').css('top', '0');
 			$('nav, .slider, .content-box').css('opacity', '1');
-			$('footer').slideDown();
+			$('.container').animate({height: $('.content-box').height() + $('.slider').height()}, 500);
 		</script>
 	</body>
 </html>
