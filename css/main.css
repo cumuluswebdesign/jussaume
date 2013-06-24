@@ -598,6 +598,64 @@ li.language a:hover {
 	color: #111;
 }
 
+/* Form */
+
+form {
+	margin-top: 20px;
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+}
+
+input, textarea {
+	display: block;
+	background-color: rgba(0,0,0,0);
+	border: 1px solid #111;
+	color: #111;
+	font-size: 14px;
+	height: 40px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+
+input {
+	margin-bottom: 20px;
+	width: 340px;
+}
+
+textarea {
+	float: right;
+	width: 340px;
+	height: 160px;
+	resize: none;
+}
+
+#submit {
+	width: 80px;
+	background: #111;
+	height: 40px;
+	color: white;
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+}
+
+::-webkit-input-placeholder {
+   color: #a3a3a3;
+   font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #a3a3a3;  
+   font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #a3a3a3;  
+   font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+}
+
+:-ms-input-placeholder {  
+   color: #a3a3a3;  
+   font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
