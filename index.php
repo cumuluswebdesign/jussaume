@@ -26,11 +26,17 @@
 			</ul>
 		</div>
 
-
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
-		<script src="js/main.js"></script>
+		<script>
+			$('.wrapper img').css('margin-top', ($(window).height()/2 - 370/2) + 'px');
+
+			$(window).resize(function() {
+				$('.wrapper img').css('margin-top', ($(window).height()/2 - 370/2) + 'px');
+			});
+		</script>
+
 		<script>
 			var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
 			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
