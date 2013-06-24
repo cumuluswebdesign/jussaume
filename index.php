@@ -33,7 +33,7 @@
 			$('.wrapper img').css('margin-top', ($(window).height()/2 - 370/2) + 'px');
 
 			$(window).resize(function() {
-				$('.wrapper img').css('margin-top', ($(window).height()/2 - 370/2) + 'px');
+				$('.wrapper img').css('margin-top', ($(window).height()/2 - 400/2) + 'px');
 			});
 		</script>
 
