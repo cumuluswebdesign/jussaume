@@ -601,13 +601,12 @@ li.language a:hover {
 
 /* Form */
 
-form {
+#contact {
 	margin-top: 20px;
 	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
 }
 
-input, textarea {
-	display: block;
+#contact input, #contact textarea {
 	background-color: rgba(0,0,0,0);
 	border: 1px solid #111;
 	color: #111;
@@ -617,24 +616,32 @@ input, textarea {
 	padding-left: 10px;
 }
 
-input {
+#contact input:focus, #contact textarea:focus {
+	outline: none;
+	border-color: #a6a6a6;
+}
+
+#contact input {
 	margin-bottom: 20px;
 	width: 340px;
 }
 
-textarea {
+#contact textarea {
 	float: right;
 	width: 340px;
 	height: 160px;
 	resize: none;
+	padding: 10px;
 }
 
-#submit {
+#contact input[type="submit"] {
 	width: 80px;
 	background: #111;
 	height: 40px;
 	color: white;
 	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	float: right;
+	margin-top: 15px;
 }
 
 ::-webkit-input-placeholder {
