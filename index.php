@@ -30,7 +30,7 @@
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
 		<script>
-			$('.wrapper img').css('margin-top', ($(window).height()/2 - 370/2) + 'px');
+			$('.wrapper img').css('margin-top', ($(window).height()/2 - 400/2) + 'px');
 
 			$(window).resize(function() {
 				$('.wrapper img').css('margin-top', ($(window).height()/2 - 400/2) + 'px');
