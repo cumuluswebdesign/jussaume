@@ -97,6 +97,6 @@
 		<?php include 'includes/modals.php'; ?>
 		<?php include 'includes/scripts.php'; ?>
 
-		<script src="/js/collections.js"></script>
+		<script src="/js/sections-nav.js"></script>
 	</body>
 </html>
