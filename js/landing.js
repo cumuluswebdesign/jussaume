@@ -8,7 +8,7 @@ $(window).resize(function() {
 //Animations on link click
 $('#en-link, #fr-link').click(function() {
 	$('#border').height(60);
-	$('#main-logo, #language-select').fadeOut(500);
+	$('#main-logo, #language-select').fadeOut(1000);
 
 	$('#landing-wrapper')
 	.css('border-left-width', '1px')
@@ -17,7 +17,7 @@ $('#en-link, #fr-link').click(function() {
 		width: 962,
 		borderLeftColor: '#e2e2e2',
 		borderRightColor: '#e2e2e2'
-	}, 500, 'swing', function() {
+	}, 1000, 'swing', function() {
 		location.href = 'en';
 	});
 });

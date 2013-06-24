@@ -578,11 +578,11 @@ li#contact a, li#about a, li#documentation {
 	height: 10px;
 	background: #111;
 
-	-webkit-transition: 0.5s all ease-in-out;
-	-moz-transition: 0.5s all ease-in-out;
-	-ms-transition: 0.5s all ease-in-out;
-	-o-transition: 0.5s all ease-in-out;
-	transition: 0.5s all ease-in-out;
+	-webkit-transition: 1s all ease-in-out;
+	-moz-transition: 1s all ease-in-out;
+	-ms-transition: 1s all ease-in-out;
+	-o-transition: 1s all ease-in-out;
+	transition: 1s all ease-in-out;
 }
 
 img#main-logo {
