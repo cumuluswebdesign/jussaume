@@ -32,7 +32,7 @@
 				</div>
 
 				<div id="headline">
-					<h1>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum.</h1>
+					<h1>Mobilier Jussaume is a Montreal-based company that creates accessible outdoor luxury furniture.</h1>
 				</div>
 
 				<div class="content-box"><h3>Materials</h3><p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur.</p><p style="margin-top: 10px;"><a href="materials.php">Learn more</a></p></div>
