@@ -189,7 +189,7 @@ nav ul li img {
 /* SLIDER */
 
 .slider {
-	height: 450px;
+	height: 500px;
 	width: 960px;
 	position: relative;
 	overflow: auto;
@@ -216,7 +216,7 @@ nav ul li img {
 
 .slider ul li img {
 	width: 960px;
-	height: 450px;
+	height: 500px;
 }
 
 .dots {
@@ -263,7 +263,7 @@ nav ul li img {
 
 .content-box {
 	width: 320px;
-	height: 220px;
+	height: 270px;
 	padding: 20px;
 	background: white;
 	border: 1px solid #e2e2e2;
@@ -280,6 +280,10 @@ nav ul li img {
 
 .content-box p {
 	color: #666;
+}
+
+.content-box a {
+	font-weight: bold;
 }
 
 .content-box a:hover {
