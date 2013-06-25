@@ -31,6 +31,10 @@
 					
 				</div>
 
+				<div id="headline">
+					<h1>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum.</h1>
+				</div>
+
 				<div class="content-box"><h3>Materials</h3><p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur.</p><p style="margin-top: 10px;"><a href="materials.php">Learn more</a></p></div>
 				<div class="content-box"><h3>About</h3><p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur.</p><p style="margin-top: 10px;"><a class="modal-link-about">Learn more</a></p></div>
 				<div class="content-box last-box"><h3>Custom</h3><p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur.</p><p style="margin-top: 10px;"><a href="custom.php">Learn more</a></p></div>
@@ -53,7 +57,7 @@
 			});
 
 			$('nav, .slider, .content-box').css('opacity', '1');
-			$('.container').animate({height: $('.content-box').height() + $('.slider').height()}, 500);
+			$('.container').animate({height: $('.content-box').height() + $('.slider').height() + $('#headline').height()}, 500);
 		</script>
 	</body>
 </html>

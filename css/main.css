@@ -251,14 +251,16 @@ nav ul li img {
 
 /* Content */
 
-.intro {
+#headline {
+	padding: 35px;
 	border-top: 1px solid #e2e2e2;
-	padding: 20px;
 }
 
-.intro p {
-	font-size: 18px;
+h1 {
+	font-size: 25px;
 	font-weight: bold;
+	text-align: center;
+	margin: 0;
 }
 
 .content-box {
