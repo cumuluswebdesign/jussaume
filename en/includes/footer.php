@@ -6,8 +6,8 @@
 		<li><a href="#">Custom</a></li>
 		<li class="modal-link-about"><a>About</a></li>
 		<li class="modal-link-contact"><a>Contact</a></li>
-		<li style="float: right" id="documentation"><a>Documentation</a></li>
+		<li style="float: right" class="modal-link-documentation"><a>Documentation</a></li>
 	</ul>
 
-	<small>&copy; <?php echo date('Y'); ?> Jussaume Inc.</small>
+	<small>&copy; <?php echo date('Y'); ?> Jussaume Entreprises Inc.</small>
 </footer>
