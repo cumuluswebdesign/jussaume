@@ -70,6 +70,14 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+.preload {
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important;
+	transition: none !important;
+}
+
 * {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;

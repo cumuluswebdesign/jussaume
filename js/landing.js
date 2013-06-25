@@ -30,3 +30,8 @@ $('#en-link, #fr-link').click(function() {
 		location.href = clickedLink.attr('id').split('-')[0];
 	});
 });
+
+//Remove preload state when loaded
+$(window).load(function() {
+	$('body').removeClass('preload');
+})
