@@ -35,9 +35,24 @@
 					<h1>Mobilier Jussaume is a Montreal-based company that creates accessible outdoor luxury furniture.</h1>
 				</div>
 
-				<div class="content-box"><h3>Materials</h3><p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur.</p><p style="margin-top: 10px;"><a href="materials.php">Learn more</a></p></div>
-				<div class="content-box"><h3>About</h3><p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur.</p><p style="margin-top: 10px;"><a class="modal-link-about">Learn more</a></p></div>
-				<div class="content-box last-box"><h3>Custom</h3><p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur.</p><p style="margin-top: 10px;"><a href="custom.php">Learn more</a></p></div>
+				<div class="content-box">
+					<h3>Materials</h3>
+					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+					<p style="margin-top: 10px;">Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur.</p>
+					<p style="margin-top: 15px;"><a href="materials.php">Learn more</a></p>
+				</div>
+				<div class="content-box">
+					<h3>About</h3>
+					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+					<p style="margin-top: 10px;">Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur.</p>
+					<p style="margin-top: 15px;"><a class="modal-link-about">Learn more</a></p>
+				</div>
+				<div class="content-box last-box">
+					<h3>Custom</h3>
+					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+					<p style="margin-top: 10px;">Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur.</p>
+					<p style="margin-top: 15px;"><a href="custom.php">Learn more</a></p>
+				</div>
 			</div>
 
 			<?php include 'includes/footer.php'; ?>
@@ -57,7 +72,7 @@
 			});
 
 			$('nav, .slider, .content-box, #headline').css('opacity', '1');
-			$('.container').animate({height: $('.content-box').height() + $('.slider').height() + $('#headline').height()}, 500);
+			$('.container').animate({height: $('.content-box').outerHeight() + $('.slider').outerHeight() + $('#headline').outerHeight()}, 500);
 		</script>
 	</body>
 </html>
