@@ -16,7 +16,7 @@ $(window).resize(function() {
 $('#en-link, #fr-link').click(function() {
 	var clickedLink = $(this);
 
-	$('#border').height(60);
+	$('#border').animate({height: 60}, 1000);
 	$('#main-logo, #language-select').fadeOut(1000);
 
 	$('#landing-wrapper')
@@ -30,8 +30,3 @@ $('#en-link, #fr-link').click(function() {
 		location.href = clickedLink.attr('id').split('-')[0];
 	});
 });
-
-//Remove preload state when loaded
-$(window).load(function() {
-	$('body').removeClass('preload');
-})

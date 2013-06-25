@@ -70,14 +70,6 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-.preload {
-	-webkit-transition: none !important;
-	-moz-transition: none !important;
-	-ms-transition: none !important;
-	-o-transition: none !important;
-	transition: none !important;
-}
-
 * {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -254,6 +246,12 @@ nav ul li img {
 #headline {
 	padding: 35px;
 	border-top: 1px solid #e2e2e2;
+
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
 h1 {
@@ -568,12 +566,6 @@ footer small {
 #border {
 	height: 10px;
 	background: #111;
-
-	-webkit-transition: 1s all ease-in-out;
-	-moz-transition: 1s all ease-in-out;
-	-ms-transition: 1s all ease-in-out;
-	-o-transition: 1s all ease-in-out;
-	transition: 1s all ease-in-out;
 }
 
 img#main-logo {

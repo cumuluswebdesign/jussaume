@@ -12,7 +12,7 @@
 		<?php include '../includes/head.php'; ?>
 
 		<style>
-			nav, .slider, .content-box {opacity: 0;}
+			nav, .slider, .content-box, #headline {opacity: 0;}
 			.container {height: 1540px;}
 		</style>
 	</head>
@@ -56,7 +56,7 @@
 				dots: true
 			});
 
-			$('nav, .slider, .content-box').css('opacity', '1');
+			$('nav, .slider, .content-box, #headline').css('opacity', '1');
 			$('.container').animate({height: $('.content-box').height() + $('.slider').height() + $('#headline').height()}, 500);
 		</script>
 	</body>
