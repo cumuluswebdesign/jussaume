@@ -56,8 +56,12 @@
 				<div class="section-header material" id="batyline-header">
 					<div class="material-info">
 						<h4>Batyline</h4>
-						<p>Made in France, this textile provides design, exceptional resistance and durable comfort.</p>
-						<p>Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<p>Made in France, this textile provides exceptional design, unmatched resistance and durable comfort.</p>
+						<ul>
+							<li>Quick drying</li>
+							<li>UV, moisture, fire and salt resistant</li>
+							<li>Easy maintenance</li>
+						</ul>
 					</div>
 					<div class="material-image"><img src="/img/material01.jpg"></div>
 				</div>
@@ -66,8 +70,8 @@
 					<div class="material-image-alt"><img src="/img/material02.jpg"></img></div>
 					<div class="material-info-alt">
 						<h4>Teak</h4>
-						<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor.</p>
-						<p class="last-text">Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<p>Grown in Indonesia, only mature trees are carefully picked. The tropical hardwood, commonly called teak, has great water durability and resistance, making it the most appropriate and valued timber for outdoor furniture.</p>
+						
 					</div>
 				</div>
 
