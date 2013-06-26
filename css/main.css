@@ -476,6 +476,12 @@ footer small {
 	margin-bottom: 20px;
 }
 
+.material-info ul {
+	color: #666;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
 .material-image {
 	width: 400px;
 	float: right;

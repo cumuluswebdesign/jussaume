@@ -56,7 +56,7 @@
 				<div class="section-header material" id="batyline-header">
 					<div class="material-info">
 						<h4>Batyline</h4>
-						<p>Made in France, this textile provides exceptional design, unmatched resistance and durable comfort.</p>
+						<p>Made in France, this textile provides exceptional design, unmatched resistance, durability and comfort.</p>
 						<ul>
 							<li>Quick drying</li>
 							<li>UV, moisture, fire and salt resistant</li>
