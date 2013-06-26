@@ -56,11 +56,12 @@
 				<div class="section-header material" id="batyline-header">
 					<div class="material-info">
 						<h4>Batyline</h4>
-						<p>Made in France, this textile provides exceptional design, unmatched resistance, durability and comfort.</p>
+						<p>Made in France, this textile provides exceptional design, unmatched resistance, durability and comfort. These characteristics make it a perfect material for commercial users as restaurants, spas, hotels, cruisers and yachting.</p>
 						<ul>
 							<li>Quick drying</li>
 							<li>UV, moisture, fire and salt resistant</li>
 							<li>Easy maintenance</li>
+							<li>Seat coolness</li>
 						</ul>
 					</div>
 					<div class="material-image"><img src="/img/material01.jpg"></div>

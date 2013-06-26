@@ -32,7 +32,7 @@
 				</div>
 
 				<div id="headline">
-					<h1>Mobilier Jussaume is a Montreal-based company that creates accessible outdoor luxury furniture.</h1>
+					<h1>Montreal-based company that creates accessible outdoor luxury furniture.</h1>
 				</div>
 
 				<div class="content-box">
