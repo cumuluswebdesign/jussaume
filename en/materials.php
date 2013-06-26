@@ -79,7 +79,7 @@
 				<div class="section-header material" id="wicker-header">
 					<div class="material-info">
 						<h4>Wicker</h4>
-						<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor.</p>
+						<p>Imported from Singapore, this composite is made of premium polyethylene highly resistant to UV, and harsh coastal climates. Our composite comes in many different colours and patterns.</p>
 						<p class="last-text">Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
 					<div class="material-image"><img src="/img/material03.jpg"></div>
