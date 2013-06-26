@@ -79,7 +79,7 @@
 				<div class="section-header material" id="wicker-header">
 					<div class="material-info">
 						<h4>Wicker</h4>
-						<p>Imported from Singapore, our synthetic wicker is design for extreme durability and comfort. Wicker that is not an actual material but a way of weaving is made of premium polyethylene. It comes in many different colours and patterns.</p>
+						<p>Imported from Singapore, our synthetic wicker is design for extreme durability and comfort. Wicker is not an actual material but a way of weaving is made of premium polyethylene. It comes in many different colours and patterns.</p>
 						<p class="last-text">Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
 					<div class="material-image"><img src="/img/material03.jpg"></div>
