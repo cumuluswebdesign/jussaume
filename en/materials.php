@@ -55,8 +55,8 @@
 
 				<div class="section-header material" id="batyline-header">
 					<div class="material-info">
-						<h4>Lorem Ipsum</h4>
-						<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor.</p>
+						<h4>Batyline</h4>
+						<p>Made in France, this textile provides design, exceptional resistance and durable comfort.</p>
 						<p>Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
 					<div class="material-image"><img src="/img/material01.jpg"></div>
@@ -65,7 +65,7 @@
 				<div class="section-header material-alt" id="teak-header">
 					<div class="material-image-alt"><img src="/img/material02.jpg"></img></div>
 					<div class="material-info-alt">
-						<h4>Lorem Ipsum</h4>
+						<h4>Teak</h4>
 						<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor.</p>
 						<p class="last-text">Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
@@ -73,7 +73,7 @@
 
 				<div class="section-header material" id="wicker-header">
 					<div class="material-info">
-						<h4>Lorem Ipsum</h4>
+						<h4>Wicker</h4>
 						<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor.</p>
 						<p class="last-text">Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
@@ -83,7 +83,7 @@
 				<div class="section-header material-alt" id="inox-header">
 					<div class="material-image-alt"><img src="/img/material04.jpg"></img></div>
 					<div class="material-info-alt">
-						<h4>Lorem Ipsum</h4>
+						<h4>Inox</h4>
 						<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor.</p>
 						<p class="last-text">Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
