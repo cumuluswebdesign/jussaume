@@ -12,13 +12,19 @@ if (!$('#logo').find('img').hasClass('current-page')) {
 // Modals
 $('[class^=modal-link-]').each(function() {
 	$(this).click(function() {
-		$('#modal-' + $(this).attr('class').split('-')[2] + ', #overlay').fadeIn(300);
+		openModal($(this).attr('class').split('-')[2]);
 	});
 });
 
 $('#overlay').click(function() {
 	$('.modal, #overlay').fadeOut(300);
 });
+
+function openModal(modalID) {
+  $("#modal-" + modalID).css('top', ($(window).height() -  $("#modal-" + modalID).outerHeight()) / 2 + 'px');
+  $("#modal-" + modalID).css('left', ($(window).width() -  $("#modal-" + modalID).outerWidth()) / 2 + 'px');
+  $("#modal-" + modalID + ', #overlay').fadeIn(300);
+}
 
 
 // Contact form

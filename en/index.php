@@ -24,11 +24,10 @@
 			<div class="container">
 				<div class="slider">
 					<ul>
-						<li><img src="/img/slider01.jpg"></img></li>
-						<li><img src="/img/slider02.jpg"></img></li>
-						<li><img src="/img/slider03.jpg"></img></li>
+						<li><img src="/img/slider01.jpg"></li>
+						<li><img src="/img/slider02.jpg"></li>
+						<li><img src="/img/slider03.jpg"></li>
 					</ul>
-					
 				</div>
 
 				<div id="headline">
@@ -60,6 +59,8 @@
 
 		<?php include 'includes/modals.php'; ?>
 		<?php include 'includes/scripts.php'; ?>
+
+		<script src="/js/vendor/unslider.min.js"></script>
 
 		<script>
 			$('.container').height($(window).height() - 60);
