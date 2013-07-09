@@ -22,6 +22,21 @@ $('[class^=product-link-]').each(function() {
 				break;
 		}
 
+		function handleFileLoad(event) {
+			$('#modal-product ul').append($('<li />').append(event.result));
+		}
+
+		function handleComplete() {
+			$('.slider').unslider({
+				speed: 800,
+				delay: 4000,
+				keys: false,
+				dots: true
+			});
+
+			openModal('product');
+		}
+
 		var queue = new createjs.LoadQueue();
 		queue.addEventListener("complete", handleComplete);
 		queue.addEventListener("fileload", handleFileLoad);
@@ -30,25 +45,10 @@ $('[class^=product-link-]').each(function() {
 			var imagesToLoad = new Array();
 
 			$.each(images, function(index, image) {
-				imagesToLoad.push('/img/' + collection + '/' + image);
+				imagesToLoad.push('/img/' + collection + '/' + product + '/' + image);
 			});
 
 			queue.loadManifest(imagesToLoad);
 		});
 	});
 });
-
-function handleFileLoad(event) {
-	$('#modal-product ul').append($('<li />').append(event.result));
-}
-
-function handleComplete() {
-	$('.slider').unslider({
-		speed: 800,
-		delay: 4000,
-		keys: false,
-		dots: true
-	});
-
-	openModal('product');
-}
