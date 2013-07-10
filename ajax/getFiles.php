@@ -3,8 +3,15 @@
 	header('Content-type: application/json');
 
 	if (isset($_GET['collection']) AND isset($_GET['product'])) {
-		$images = scandir('../img/' . $_GET['collection'] . '/' . $_GET['product']);
-		$images = array_diff($images, array('.', '..'));
+		$files = scandir('../img/' . $_GET['collection'] . '/' . $_GET['product']);
+		$files = array_diff($files, array('.', '..'));
+		$images = array();
+
+		foreach($files as $file) {
+			if (substr($file, 0, 1) != ".") {
+				array_push($images, $file);
+			}
+		}
 
 		echo json_encode($images);
 	}
