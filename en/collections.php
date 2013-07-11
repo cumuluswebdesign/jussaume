@@ -75,34 +75,32 @@
 				<div class="item"><a class="product-link-h070"><img src="/img/hampton/h070.jpg"></a></div>
 				<div class="item"><a class="product-link-h080"><img src="/img/hampton/h080.jpg"></a></div>
 
-				<div class="item last-row"><a class="product-link-h090"><img src="/img/hampton/h090.jpg"></a></div>
-
 				<div class="section-header collection-header" id="manhattan-header"><h3>Manhattan</h3></div>
 
-				<div class="item"><a href="#"><img src="/img/manhattan/m001.jpg"></a></div>
-				<div class="item"><a href="#"><img src="/img/manhattan/m002.jpg"></a></div>
-				<div class="item"><a href="#"><img src="/img/manhattan/m003.jpg"></a></div>
-				<div class="item"><a href="#"><img src="/img/manhattan/m004.jpg"></a></div>
+				<div class="item"><a class="product-link-m001"><img src="/img/manhattan/m001.jpg"></a></div>
+				<div class="item"><a class="product-link-m002"><img src="/img/manhattan/m002.jpg"></a></div>
+				<div class="item"><a class="product-link-m003"><img src="/img/manhattan/m003.jpg"></a></div>
+				<div class="item"><a class="product-link-m004"><img src="/img/manhattan/m004.jpg"></a></div>
 
-				<div class="item last-row"><a href="#"><img src="/img/manhattan/m005.jpg"></a></div>
-				<div class="item last-row"><a href="#"><img src="/img/manhattan/m010.jpg"></a></div>
-				<div class="item last-row"><a href="#"><img src="/img/manhattan/m020.jpg"></a></div>
-				<div class="item last-row"><a href="#"><img src="/img/manhattan/m030.jpg"></a></div>
+				<div class="item last-row"><a class="product-link-m005"><img src="/img/manhattan/m005.jpg"></a></div>
+				<div class="item last-row"><a class="product-link-m0010"><img src="/img/manhattan/m010.jpg"></a></div>
+				<div class="item last-row"><a class="product-link-m0020"><img src="/img/manhattan/m020.jpg"></a></div>
+				<div class="item last-row"><a class="product-link-m0030"><img src="/img/manhattan/m030.jpg"></a></div>
 
 				<div class="section-header collection-header" id="paris-header"><h3>Paris</h3></div>
 
-				<div class="item"><a href="#"><img src="/img/paris/p001.jpg"></a></div>
-				<div class="item"><a href="#"><img src="/img/paris/p002.jpg"></a></div>
-				<div class="item"><a href="#"><img src="/img/paris/p003.jpg"></a></div>
-				<div class="item"><a href="#"><img src="/img/paris/p004.jpg"></a></div>
+				<div class="item"><a class="product-link-p001"><img src="/img/paris/p001.jpg"></a></div>
+				<div class="item"><a class="product-link-p002"><img src="/img/paris/p002.jpg"></a></div>
+				<div class="item"><a class="product-link-p003"><img src="/img/paris/p003.jpg"></a></div>
+				<div class="item"><a class="product-link-p004"><img src="/img/paris/p004.jpg"></a></div>
 
-				<div class="item"><a href="#"><img src="/img/paris/p005.jpg"></a></div>
-				<div class="item"><a href="#"><img src="/img/paris/p006.jpg"></a></div>
-				<div class="item"><a href="#"><img src="/img/paris/p007.jpg"></a></div>
-				<div class="item"><a href="#"><img src="/img/paris/p010.jpg"></a></div>
+				<div class="item"><a class="product-link-p005"><img src="/img/paris/p005.jpg"></a></div>
+				<div class="item"><a class="product-link-p006"><img src="/img/paris/p006.jpg"></a></div>
+				<div class="item"><a class="product-link-p007"><img src="/img/paris/p007.jpg"></a></div>
+				<div class="item"><a class="product-link-p010"><img src="/img/paris/p010.jpg"></a></div>
 
-				<div class="item last-row"><a href="#"><img src="/img/paris/p020.jpg"></a></div>
-				<div class="item last-row"><a href="#"><img src="/img/paris/p030.jpg"></a></div>
+				<div class="item last-row"><a class="product-link-p020"><img src="/img/paris/p020.jpg"></a></div>
+				<div class="item last-row"><a class="product-link-p030"><img src="/img/paris/p030.jpg"></a></div>
 				<div class="item last-row"></div>
 				<div class="item last-row"></div>
 
@@ -131,10 +129,12 @@
 		<?php include 'includes/modals.php'; ?>
 
 		<div id="modal-product" class="modal">
-			<div style="float: right; width: 310px;">
+			<div class="modal-close">x</div>
+			<div id="desc-div">
 				<h3>La chaise.</h3>
 				<p class="product-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
+			<div id="thumbs"></div>
 		</div>
 
 		<?php include 'includes/scripts.php'; ?>

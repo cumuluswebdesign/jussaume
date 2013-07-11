@@ -16,7 +16,7 @@ $('[class^=modal-link-]').each(function() {
 	});
 });
 
-$('#overlay').click(function() {
+$('#overlay, .modal-close').click(function() {
 	$('.modal, #overlay').fadeOut(300);
 });
 

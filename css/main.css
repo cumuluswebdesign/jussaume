@@ -108,6 +108,12 @@ a:hover {
 p {
 	margin: 0;
 	font-size: 14px;
+	color: #666;
+}
+
+p.padded {
+	padding: 0 40px;
+	margin: 20px 0 20px 0;
 }
 
 /* HEADER & NAVIGATION */
@@ -455,7 +461,7 @@ footer small {
 }
 
 #modal-product {
-	height: 420px;
+	height: 490px;
 }
 
 #modal-product h3 {
@@ -481,6 +487,26 @@ footer small {
 	float: right;
 	width: 310px;
 	color: #666;
+}
+
+#thumbs {
+	clear: left;
+	width: 350px;
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#thumbs img {
+	width: 60px;
+	cursor: pointer;
+	margin: 0 5px 5px 0;
+}
+
+#desc-div {
+	float: right;
+	width: 310px;
+	margin-top: 15px;
 }
 
 /* Features */
@@ -555,7 +581,7 @@ footer small {
 	margin-bottom: 40px !important;
 }
 
-/* Pop Up */
+/* Modals */
 
 #overlay {
 	position:fixed;
@@ -595,6 +621,19 @@ footer small {
 	font-size: 14px;
 	color: #666666;
 	line-height: 1.6;
+}
+
+.modal-close {
+	position: absolute;
+	right: 40px;
+	top: 35px;
+	font-size: 20px;
+	cursor: pointer;
+	color: #666;
+}
+
+.modal-close:hover {
+	color: #111;
 }
 
 /* Landing Page */
@@ -683,12 +722,17 @@ li.language a:hover {
 
 #contact input[type="button"] {
 	width: 80px;
-	background: #111;
+	background: none;
 	height: 40px;
-	color: white;
+	color: #666;
 	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
 	float: right;
 	margin-top: 15px;
+	border: none;
+}
+
+#contact input[type="button"]:hover {
+	color: #111;
 }
 
 #notification {

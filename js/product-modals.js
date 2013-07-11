@@ -2,7 +2,8 @@ $('[class^=product-link-]').each(function() {
 	$(this).click(function() {
 		//Refresh the modal
 		$('#modal-product .slider').remove();
-		$('<ul />').appendTo($('<div />').addClass('slider').appendTo($('#modal-product')));
+		$('<ul />').appendTo($('<div />').addClass('slider').insertAfter('#desc-div'));
+		$('#thumbs').empty();
 
 		var product = $(this).attr('class').split('-')[2];
 		var collection;
@@ -24,14 +25,24 @@ $('[class^=product-link-]').each(function() {
 
 		function handleFileLoad(event) {
 			$('#modal-product ul').append($('<li />').append(event.result));
+			$('#thumbs').append($(event.result).clone());
 		}
 
 		function handleComplete() {
 			$('.slider').unslider({
 				speed: 800,
 				delay: 4000,
-				keys: false,
-				dots: true
+				keys: false
+			});
+
+			var sliderHandle = $('.slider').data('unslider');
+
+			//Make thumnbails clickable
+			$('#thumbs img').each(function(index) {
+				$(this).click(function() {
+					sliderHandle.move(index);
+					sliderHandle.stop();
+				});
 			});
 
 			openModal('product');
