@@ -83,9 +83,9 @@
 				<div class="item"><a class="product-link-m004"><img src="/img/manhattan/m004.jpg"></a></div>
 
 				<div class="item last-row"><a class="product-link-m005"><img src="/img/manhattan/m005.jpg"></a></div>
-				<div class="item last-row"><a class="product-link-m0010"><img src="/img/manhattan/m010.jpg"></a></div>
-				<div class="item last-row"><a class="product-link-m0020"><img src="/img/manhattan/m020.jpg"></a></div>
-				<div class="item last-row"><a class="product-link-m0030"><img src="/img/manhattan/m030.jpg"></a></div>
+				<div class="item last-row"><a class="product-link-m010"><img src="/img/manhattan/m010.jpg"></a></div>
+				<div class="item last-row"><a class="product-link-m020"><img src="/img/manhattan/m020.jpg"></a></div>
+				<div class="item last-row"><a class="product-link-m030"><img src="/img/manhattan/m030.jpg"></a></div>
 
 				<div class="section-header collection-header" id="paris-header"><h3>Paris</h3></div>
 
@@ -130,7 +130,11 @@
 			<div class="modal-close">x</div>
 			<div id="desc-div">
 				<h3>La chaise.</h3>
-				<p class="product-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p class="product-description">
+					<strong>Dimensions: </strong><span id="product-dimensions"></span><br>
+					<strong>Materials: </strong><span id="product-materials"></span><br>
+					<strong>Warranty: </strong><span id="product-warranty"></span>
+				</p>
 			</div>
 			<div id="thumbs"></div>
 		</div>

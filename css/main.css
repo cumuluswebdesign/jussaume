@@ -461,7 +461,7 @@ footer small {
 }
 
 #modal-product {
-	height: 490px;
+	height: 390px;
 }
 
 #modal-product h3 {
@@ -471,12 +471,12 @@ footer small {
 
 #modal-product .slider {
 	width: 350px;
-	height: 350px !important;
+	height: 250px !important;
 }
 
 #modal-product .slider ul li img{
 	width: 350px;
-	height: 350px;
+	height: 250px;
 }
 
 #modal-product .dots li {

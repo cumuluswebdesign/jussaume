@@ -23,6 +23,29 @@ $('[class^=product-link-]').each(function() {
 				break;
 		}
 
+		//Preload images
+		var queue = new createjs.LoadQueue();
+		queue.addEventListener("complete", handleComplete);
+		queue.addEventListener("fileload", handleFileLoad);
+
+		$.get('/ajax/getFiles.php?collection=' + collection + '&product=' + product, function(images) {
+			var imagesToLoad = new Array();
+
+			$.each(images, function(index, image) {
+				imagesToLoad.push('/img/' + collection + '/' + product + '/' + image);
+			});
+
+			queue.loadManifest(imagesToLoad);
+		});
+
+		//Load product info
+		$.get('/ajax/getProductInfo.php?lang=en&product=' + product, function(productInfo) {
+			$('#modal-product h3').text(productInfo.name);
+			$('#product-dimensions').text(productInfo.dimensions);
+			$('#product-materials').text(productInfo.materials);
+			$('#product-warranty').text(productInfo.warranty);
+		});
+
 		function handleFileLoad(event) {
 			$('#modal-product ul').append($('<li />').append(event.result));
 			$('#thumbs').append($(event.result).clone());
@@ -47,19 +70,5 @@ $('[class^=product-link-]').each(function() {
 
 			openModal('product');
 		}
-
-		var queue = new createjs.LoadQueue();
-		queue.addEventListener("complete", handleComplete);
-		queue.addEventListener("fileload", handleFileLoad);
-
-		$.get('/ajax/getFiles.php?collection=' + collection + '&product=' + product, function(images) {
-			var imagesToLoad = new Array();
-
-			$.each(images, function(index, image) {
-				imagesToLoad.push('/img/' + collection + '/' + product + '/' + image);
-			});
-
-			queue.loadManifest(imagesToLoad);
-		});
 	});
 });
