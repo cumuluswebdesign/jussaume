@@ -70,10 +70,10 @@
 				<div class="item"><a class="product-link-h020"><img src="/img/hampton/h020.jpg"></a></div>
 				<div class="item"><a class="product-link-h040"><img src="/img/hampton/h040.jpg"></a></div>
 
-				<div class="item"><a class="product-link-h050"><img src="/img/hampton/h050.jpg"></a></div>
-				<div class="item"><a class="product-link-h060"><img src="/img/hampton/h060.jpg"></a></div>
-				<div class="item"><a class="product-link-h070"><img src="/img/hampton/h070.jpg"></a></div>
-				<div class="item"><a class="product-link-h080"><img src="/img/hampton/h080.jpg"></a></div>
+				<div class="item last-row"><a class="product-link-h050"><img src="/img/hampton/h050.jpg"></a></div>
+				<div class="item last-row"><a class="product-link-h060"><img src="/img/hampton/h060.jpg"></a></div>
+				<div class="item last-row"><a class="product-link-h070"><img src="/img/hampton/h070.jpg"></a></div>
+				<div class="item last-row"><a class="product-link-h080"><img src="/img/hampton/h080.jpg"></a></div>
 
 				<div class="section-header collection-header" id="manhattan-header"><h3>Manhattan</h3></div>
 
@@ -101,8 +101,6 @@
 
 				<div class="item last-row"><a class="product-link-p020"><img src="/img/paris/p020.jpg"></a></div>
 				<div class="item last-row"><a class="product-link-p030"><img src="/img/paris/p030.jpg"></a></div>
-				<div class="item last-row"></div>
-				<div class="item last-row"></div>
 
 				<div class="section-header collection-header" id="vancouver-header"><h3>Vancouver</h3></div>
 
