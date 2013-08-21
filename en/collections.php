@@ -131,7 +131,7 @@
 			<div id="desc-div">
 				<h3>La chaise.</h3>
 				<p class="product-description">
-					<strong>Item ID</strong><br>
+					<strong>Item #</strong><br>
 					<span id="product-id"></span><br><br>
 					<strong>Dimensions</strong><br>
 					<span id="product-dimensions"></span><br><br>
