@@ -35,7 +35,7 @@
 					<h2>From Scratch</h2>
 
 					<div class="process-step">
-						<img src="/img/from-scratch-1.jpg" alt="description de l'étape">
+						<div class="icon-container"><img src="/img/custom/idea.svg" alt="description de l'étape" style="margin-top: 15px"></div>
 						<p>
 							<strong>Brainstorming</strong><br>
 							When making your initial sketch imagine the environment you want to create including the integration and use of the furniture. Decide on your shape and choose from our selection of quality material. Let your creativity flow!
@@ -43,7 +43,7 @@
 					</div>
 					
 					<div class="process-step">
-						<img src="/img/from-scratch-1.jpg" alt="description de l'étape">
+						<div class="icon-container"><img src="/img/custom/laptop.svg" alt="description de l'étape" style="margin-top: 15px"></div>
 						<p>
 							<strong>Technical Drawing</strong><br>
 							When your design is on paper we check the engineering, we cover each technical detail with respect to strength and manufacturing design feasibility. Next we provide you with accurate pricing along with the blueprints for the factory.
@@ -51,7 +51,7 @@
 					</div>
 
 					<div class="process-step">
-						<img src="/img/from-scratch-1.jpg" alt="description de l'étape">
+						<div class="icon-container"><img src="/img/custom/factory.svg" alt="description de l'étape" style="margin-top: 40px"></div>
 						<p>
 							<strong>Manufacturing</strong><br>
 							Now the last step! A first sample is made. Strict quality control is done, including a thorough review of the engineering design to ensure a robust and durable product. Only after the design is approved a production line starts. A second quality control of the factory product is done before leaving the factory.
@@ -63,8 +63,8 @@
 
 				<div id="mix-match">
 					<h2>Mix and Match</h2>
-					<img src="/img/mix-match.jpg" alt="Mix and Match">
-					<p>Don’t want to start from scratch? It’s easy with Jussaume’s selection of existing designs to make your own design. Modify dimensions or swap materials. Its as simple as it sounds.</p>
+					<div class="icon-container"><img src="/img/custom/scissors.svg" alt="Mix and Match"></div>
+					<p style="margin-top: 10px; margin-bottom: 28px;">Don’t want to start from scratch? It’s easy with Jussaume’s selection of existing designs to make your own design. Modify dimensions or swap materials. Its as simple as it sounds.</p>
 				</div>
 			</div>
 

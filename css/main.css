@@ -833,20 +833,8 @@ li.language a:hover {
 	overflow: auto;
 	clear: both;
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
-
-#mix-match img {
-	float: left;
-	width: 380px;
-}
-
-#mix-match p {
-	float: right;
-	width: 490px;
-	margin-right: 40px;
-	font-size: 22px;
-}
-
 
 #from-scratch {
 	margin-bottom: 10px;
@@ -862,23 +850,18 @@ li.language a:hover {
 	margin: 0;
 }
 
-#from-scratch img{
-	width: 300px;
-}
-
-#from-scratch p{
+.icon-container {
+	width: 260px;
 	float: left;
-	font-size: 22px;
-	width: 620px;
-	padding: 0 40px;
+	text-align: center;
+	margin-left: 40px;
 }
 
-.process-step:nth-of-type(odd) img {
-	float: left;
-}
-
-.process-step:nth-of-type(even) img {
+#from-scratch p, #mix-match p {
 	float: right;
+	font-size: 22px;
+	width: 655px;
+	padding: 0 40px;
 }
 
 /* ==========================================================================

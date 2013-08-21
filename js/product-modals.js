@@ -51,6 +51,7 @@ $('[class^=product-link-]').each(function() {
 
 			$('#product-materials').text(productInfo.materials);
 			$('#product-warranty').text(productInfo.warranty);
+			$('#product-id').text(productInfo.id);
 		});
 
 		function handleFileLoad(event) {
