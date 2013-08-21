@@ -17,8 +17,55 @@
 
 		<div class="wrapper">
 			<div class="container">
-				<p class="padded">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-				<p class="padded">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam.</p>
+				<h2 style="margin-bottom: 0;">Your design, our crafting.</h2>
+				<p class="thin" style="font-size: 20px;">Jussaume’s commercial clients have the opportunity to get furniture that fit their specific needs through two customization options — <em>Mix & Match</em> and <em>From Scratch</em>.</p>
+	
+				<div class="custom-categories-container">
+					<div class="custom-category" data-link="from-scratch">
+						<img src="/img/from-scratch-icon.jpg" alt="From Sratch">
+						From Scratch
+					</div>
+					<div class="custom-category" data-link="mix-match">
+						<img src="/img/mix-match-icon.jpg" alt="Mix and Match">
+						Mix and Match
+					</div>
+				</div>
+
+				<div id="from-scratch">
+					<h2>From Scratch</h2>
+
+					<div class="process-step">
+						<img src="/img/from-scratch-1.jpg" alt="description de l'étape">
+						<p>
+							<strong>Brainstorming</strong><br>
+							When making your initial sketch imagine the environment you want to create including the integration and use of the furniture. Decide on your shape and choose from our selection of quality material. Let your creativity flow!
+						</p>
+					</div>
+					
+					<div class="process-step">
+						<img src="/img/from-scratch-1.jpg" alt="description de l'étape">
+						<p>
+							<strong>Technical Drawing</strong><br>
+							When your design is on paper we check the engineering, we cover each technical detail with respect to strength and manufacturing design feasibility. Next we provide you with accurate pricing along with the blueprints for the factory.
+						</p>
+					</div>
+
+					<div class="process-step">
+						<img src="/img/from-scratch-1.jpg" alt="description de l'étape">
+						<p>
+							<strong>Manufacturing</strong><br>
+							Now the last step! A first sample is made. Strict quality control is done, including a thorough review of the engineering design to ensure a robust and durable product. Only after the design is approved a production line starts. A second quality control of the factory product is done before leaving the factory.
+						</p>
+					</div>
+
+					<p style="text-align: center; width: 100%;"><em>Finally, your custom furniture is on the road!</em></p>
+				</div>
+
+				<div id="mix-match">
+					<h2>Mix and Match</h2>
+					<img src="/img/mix-match.jpg" alt="Mix and Match">
+					<p>Don’t want to start from scratch? It’s easy with Jussaume’s selection of existing designs to make your own design. Modify dimensions or swap materials. Its as simple as it sounds.</p>
+				</div>
 			</div>
 
 			<?php include 'includes/footer.php'; ?>
@@ -26,6 +73,8 @@
 
 		<?php include 'includes/modals.php'; ?>
 		<?php include 'includes/scripts.php'; ?>
+
+		<script src="/js/custom.js"></script>
 
 		<script src="/js/sections-nav.js"></script>
 	</body>

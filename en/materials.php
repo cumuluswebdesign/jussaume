@@ -72,7 +72,6 @@
 					<div class="material-info-alt">
 						<h4>Teak</h4>
 						<p>Grown in Indonesia, only mature trees are carefully picked. The tropical hardwood, commonly called teak, has great water durability and resistance, making it the most appropriate and valued timber for outdoor furniture.</p>
-						
 					</div>
 				</div>
 
@@ -89,8 +88,8 @@
 					<div class="material-image-alt"><img src="/img/material04.jpg"></img></div>
 					<div class="material-info-alt">
 						<h4>Inox</h4>
-						<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor.</p>
-						<p class="last-text">Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<p>Stainless steel makes some of the most beautiful and durable shinny structures. Jussaume’s product are made with standard 304 grade stainless steel which is proven to withstand almost every environment. For extra durability 316* marine grade stainless is available for even the harshest ocean regions. Both stainless steel grades are also offered electropolishing<sup>1</sup>.</p>
+						<p style="font-size: 12px;"><sup>1</sup> Standard prices do not include 316 marine grade and electropolishing. Contact us!</p>
 					</div>
 				</div>
 

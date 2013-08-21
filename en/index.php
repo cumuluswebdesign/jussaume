@@ -36,21 +36,20 @@
 
 				<div class="content-box">
 					<h3>Materials</h3>
-					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur.</p>
-					<p style="margin-top: 10px;">Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur.</p>
+					<p>An array of materials carefully picked for one great quality.</p>
 					<p style="margin-top: 15px;"><a href="materials.php">Learn more</a></p>
 				</div>
 				<div class="content-box">
-					<h3>About</h3>
-					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur.</p>
-					<p style="margin-top: 10px;">Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur.</p>
+					<h3>From scratch</h3>
+					<p>It says it all. Anything is possible.</p>
+					<p>Be creative.</p>
 					<p style="margin-top: 15px;"><a class="modal-link-about">Learn more</a></p>
 				</div>
 				<div class="content-box last-box">
-					<h3>Custom</h3>
-					<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur.</p>
-					<p style="margin-top: 10px;">Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur.</p>
-					<p style="margin-top: 15px;"><a href="custom.php">Learn more</a></p>
+					<h3>Mix and match</h3>
+					<p>Get your match by mixing our top of the line products.</p>
+					<p style="margin-top: 15px;"><a class="modal-link-about">Learn more</a></p>
+					</p>
 				</div>
 			</div>
 

@@ -41,7 +41,14 @@ $('[class^=product-link-]').each(function() {
 		//Load product info
 		$.get('/ajax/getProductInfo.php?lang=en&product=' + product, function(productInfo) {
 			$('#modal-product h3').text(productInfo.name);
-			$('#product-dimensions').text(productInfo.dimensions);
+
+			var dimensionHtml = "";
+			productInfo.dimensions.forEach(function(dimension) {
+				dimensionHtml += dimension + '<br>';
+			});
+			dimensionHtml = dimensionHtml.substr(0, dimensionHtml.length - 4); //Remove the last <br>
+			$('#product-dimensions').html(dimensionHtml);
+
 			$('#product-materials').text(productInfo.materials);
 			$('#product-warranty').text(productInfo.warranty);
 		});

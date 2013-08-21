@@ -131,9 +131,12 @@
 			<div id="desc-div">
 				<h3>La chaise.</h3>
 				<p class="product-description">
-					<strong>Dimensions: </strong><span id="product-dimensions"></span><br>
-					<strong>Materials: </strong><span id="product-materials"></span><br>
-					<strong>Warranty: </strong><span id="product-warranty"></span>
+					<strong>Dimensions</strong><br>
+					<span id="product-dimensions"></span><br><br>
+					<strong>Materials</strong><br>
+					<span id="product-materials"></span><br><br>
+					<strong>Warranty</strong><br>
+					<span id="product-warranty"></span><br><br>
 				</p>
 			</div>
 			<div id="thumbs"></div>

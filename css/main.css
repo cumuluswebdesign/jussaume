@@ -77,8 +77,10 @@ body {
 }
 
 a {
-	color: inherit;
+	color: #666;
 	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer; /* Gives hand cursor to all links (even with no href) */
 
 	-webkit-transition: color 0.1s ease-in-out;
 	-moz-transition: color 0.1s ease-in-out;
@@ -88,7 +90,7 @@ a {
 }
 
 a:hover {
-	cursor: pointer;
+	color: #111;
 }
 
 .wrapper {
@@ -114,6 +116,12 @@ p {
 p.padded {
 	padding: 0 40px;
 	margin: 20px 0 20px 0;
+}
+
+p.thin {
+	padding: 0 150px;
+	margin: 20px 0 20px 0;
+	text-align: center;
 }
 
 /* HEADER & NAVIGATION */
@@ -162,6 +170,7 @@ nav ul li a {
 	width: 100%;
 	height: 100%;
 	color: #a6a6a6;
+	font-weight: normal;
 
 	-webkit-transition: all 0.1s ease-in-out;
 	-moz-transition: all 0.1s ease-in-out;
@@ -267,6 +276,13 @@ h1 {
 	margin: 0;
 }
 
+h2 {
+	font-size: 35px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
 .content-box {
 	width: 320px;
 	height: 320px;
@@ -290,6 +306,7 @@ h1 {
 
 .content-box a {
 	font-weight: bold;
+	font-style: italic;
 }
 
 .content-box a:hover {
@@ -332,7 +349,7 @@ footer ul li {
 }
 
 footer ul li a {
-	color: #666;
+	font-weight: normal;
 }
 
 footer ul li a:hover {
@@ -601,7 +618,7 @@ footer small {
 	position: fixed;
 	background-color: white; 
 	width: 780px;
-	min-height: 420px;
+	min-height: 300px;
 	z-index: 1000;
 	padding: 40px;
 	margin: 0 auto;
@@ -621,6 +638,13 @@ footer small {
 	font-size: 14px;
 	color: #666666;
 	line-height: 1.6;
+}
+
+#modal-about {
+	background-image: url(/img/logo-filigram.svg);
+	background-size: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .modal-close {
@@ -662,6 +686,7 @@ ul#language-select {
 
 li.language a {
 	color: #a6a6a6;
+	font-weight: normal;
 }
 
 li.language a:hover {
@@ -766,6 +791,94 @@ li.language a:hover {
 :-ms-input-placeholder {  
    color: #a3a3a3;  
    font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+}
+
+/* Custom */
+
+.custom-categories-container {
+	text-align: center;
+	font-size: 0; /* To prevent spacing between inline-block elements */
+	margin-bottom: 50px;
+}
+
+.custom-category {
+	text-align: center;
+	display: inline-block;
+	width: 170px;
+	cursor: pointer;
+	color: #666;
+	padding: 0 25px 10px 25px;
+	font-size: 16px;
+
+	-webkit-transition: color 0.1s ease-in-out;
+	-moz-transition: color 0.1s ease-in-out;
+	-ms-transition: color 0.1s ease-in-out;
+	-o-transition: color 0.1s ease-in-out;
+	transition: color 0.1s ease-in-out;
+}
+
+.custom-category:hover {
+	color: black;
+}
+
+.custom-category:first-child {
+	border-right: 1px solid #e2e2e2;
+}
+
+.custom-category img {
+	width: 100px;
+}
+
+#mix-match {
+	overflow: auto;
+	clear: both;
+	margin-top: 30px;
+}
+
+#mix-match img {
+	float: left;
+	width: 380px;
+}
+
+#mix-match p {
+	float: right;
+	width: 490px;
+	margin-right: 40px;
+	font-size: 22px;
+}
+
+
+#from-scratch {
+	margin-bottom: 10px;
+	overflow: auto;
+}
+
+.process-step {
+	overflow: auto;
+	margin-bottom: 40px;
+}
+
+.process-step:last-child {
+	margin: 0;
+}
+
+#from-scratch img{
+	width: 300px;
+}
+
+#from-scratch p{
+	float: left;
+	font-size: 22px;
+	width: 620px;
+	padding: 0 40px;
+}
+
+.process-step:nth-of-type(odd) img {
+	float: left;
+}
+
+.process-step:nth-of-type(even) img {
+	float: right;
 }
 
 /* ==========================================================================
