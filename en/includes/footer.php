@@ -6,7 +6,7 @@
 		<li><a href="custom.php">Custom</a></li>
 		<li class="modal-link-about"><a>About</a></li>
 		<li class="modal-link-contact"><a>Contact</a></li>
-		<li style="float: right" class="modal-link-documentation"><a>Documentation</a></li>
+		<li style="float: right"><a href="/docs/documentation.pdf" target="_blank">Documentation</a></li>
 	</ul>
 
 	<small>&copy; <?php echo date('Y'); ?> Jussaume Entreprises Inc.</small>

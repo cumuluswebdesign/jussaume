@@ -1,9 +1,6 @@
 $('[class^=product-link-]').each(function() {
 	$(this).click(function() {
-		//Refresh the modal
-		$('#modal-product .slider').remove();
-		$('<ul />').appendTo($('<div />').addClass('slider').insertAfter('#desc-div'));
-		$('#thumbs').empty();
+		var photos = [];
 
 		var product = $(this).attr('class').split('-')[2];
 		var collection;
@@ -51,15 +48,25 @@ $('[class^=product-link-]').each(function() {
 
 			$('#product-materials').text(productInfo.materials);
 			$('#product-warranty').text(productInfo.warranty);
-			$('#product-id').text(productInfo.id);
+			$('#product-id').text(productInfo.id.toUpperCase());
 		});
 
 		function handleFileLoad(event) {
-			$('#modal-product ul').append($('<li />').append(event.result));
-			$('#thumbs').append($(event.result).clone());
+			photos.push(event.result);
 		}
 
 		function handleComplete() {
+			//Refresh the modal
+			$('#modal-product .slider').remove();
+			$('<ul />').appendTo($('<div />').addClass('slider').insertAfter('#desc-div'));
+			$('#thumbs').empty();
+
+			//Append the images
+			photos.forEach(function(photo) {
+				$('#modal-product ul').append($('<li />').append(photo));
+				$('#thumbs').append($(photo).clone());
+			});
+
 			$('.slider').unslider({
 				speed: 800,
 				delay: 4000,

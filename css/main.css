@@ -851,7 +851,7 @@ li.language a:hover {
 }
 
 .icon-container {
-	width: 260px;
+	width: 220px;
 	float: left;
 	text-align: center;
 	margin-left: 40px;
@@ -860,7 +860,7 @@ li.language a:hover {
 #from-scratch p, #mix-match p {
 	float: right;
 	font-size: 22px;
-	width: 655px;
+	width: 695px;
 	padding: 0 40px;
 }
 

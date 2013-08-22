@@ -44,12 +44,12 @@
 					<h3>From scratch</h3>
 					<p>It says it all. Anything is possible.</p>
 					<p>Be creative.</p>
-					<p style="margin-top: 15px;"><a class="modal-link-about">Learn more</a></p>
+					<p style="margin-top: 15px;"><a href="custom.php#from-scratch">Learn more</a></p>
 				</div>
 				<div class="content-box last-box">
 					<h3>Mix and match</h3>
 					<p>Get your match by mixing our top of the line products.</p>
-					<p style="margin-top: 15px;"><a class="modal-link-about">Learn more</a></p>
+					<p style="margin-top: 15px;"><a href="custom.php#mix-match">Learn more</a></p>
 					</p>
 				</div>
 			</div>

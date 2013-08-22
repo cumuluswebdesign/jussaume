@@ -56,7 +56,7 @@
 				<div class="section-header material" id="batyline-header">
 					<div class="material-info">
 						<h4>Batyline</h4>
-						<p>Made in France, this textile provides exceptional design, unmatched resistance, durability and comfort. These characteristics make it a perfect material for commercial users as restaurants, spas, hotels, cruisers and yachting.</p>
+						<p>Made in France, this textile provides exceptional design, unmatched resistance, durability and comfort. These characteristics make it a perfect material for commercial users such as restaurants, spas, hotels, cruisers and yachting.</p>
 						<ul>
 							<li>Quick drying</li>
 							<li>UV, moisture, fire and salt resistant</li>
@@ -88,7 +88,7 @@
 					<div class="material-image-alt"><img src="/img/material04.jpg"></img></div>
 					<div class="material-info-alt">
 						<h4>Inox</h4>
-						<p>Stainless steel makes some of the most beautiful and durable shinny structures. Jussaume’s product are made with standard 304 grade stainless steel which is proven to withstand almost every environment. For extra durability 316* marine grade stainless is available for even the harshest ocean regions. Both stainless steel grades are also offered electropolishing<sup>1</sup>.</p>
+						<p>Stainless steel makes some of the most beautiful and durable shinny structures. Jussaume’s product are made with standard 304 grade stainless steel which is proven to withstand almost every environment. For extra durability 316* marine grade stainless is available for even the harshest ocean regions. Also, both stainless steel grades are offered with electropolishing.<sup>1</sup>.</p>
 						<p style="font-size: 12px;"><sup>1</sup> Standard prices do not include 316 marine grade and electropolishing. Contact us!</p>
 					</div>
 				</div>
