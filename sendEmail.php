@@ -1,7 +1,6 @@
 <?php
 
   try {
-
     if (isset($_POST["email"]) AND isset($_POST["name"]) AND isset($_POST["company"]) AND isset($_POST["message"]))
 
     header('Content-Type: application/json'); //Necessary for jQuery to understand we're sending JSON
@@ -21,7 +20,7 @@
     $mail->AddReplyTo($_POST["email"], $_POST["name"]);
     $mail->From = $_POST["email"];
     $mail->FromName = $_POST["name"];
-    $mail->AddAddress('frank.marineau@gmail.com');
+    $mail->AddAddress('louismartin.jussaume@gmail.com');
 
     $mail->Subject = 'Message du site';
 

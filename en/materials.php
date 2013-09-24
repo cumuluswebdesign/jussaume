@@ -7,7 +7,6 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Mobilier Jussaume | Materials</title>
-		<meta name="description" content="">
 		
 		<?php include '../includes/head.php'; ?>
 	</head>
@@ -62,6 +61,7 @@
 							<li>UV, moisture, fire and salt resistant</li>
 							<li>Easy maintenance</li>
 							<li>Seat coolness</li>
+							<li>Imported</li>
 						</ul>
 					</div>
 					<div class="material-image"><img src="/img/material01.jpg"></div>
@@ -71,15 +71,25 @@
 					<div class="material-image-alt"><img src="/img/material02.jpg"></img></div>
 					<div class="material-info-alt">
 						<h4>Teak</h4>
-						<p>Grown in Indonesia, only mature trees are carefully picked. The tropical hardwood, commonly called teak, has great water durability and resistance, making it the most appropriate and valued timber for outdoor furniture.</p>
+						<p>Grown in Indonesia, only mature trees are carefully harvested- tropical hardwood is used. This teak has great qualities including water resistance which make it one of the most appropriate timbers for outdoor furniture.</p>
+						<ul>
+							<li>High density wood</li>
+							<li>Natural</li>
+							<li>Imported</li>
+						</ul>
 					</div>
 				</div>
 
 				<div class="section-header material" id="wicker-header">
 					<div class="material-info">
 						<h4>Wicker</h4>
-						<p>Imported from Singapore, our synthetic wicker is design for extreme durability and comfort. Wicker is not an actual material but a way of weaving is made of premium polyethylene. It comes in many different colours and patterns.</p>
-						<p class="last-text">Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<p>Mobilier Jussaume imports from Singapore synthetic wicker optimally designed for durability and comfort. This high quality product which is made of premium polyethylene comes in a choice of many colours and patterns.</p>
+						<ul>
+							<li>No maintenance</li>
+							<li>Heavy duty</li>
+							<li>Stabilized against UV rays</li>
+							<li>Imported</li>
+						</ul>
 					</div>
 					<div class="material-image"><img src="/img/material03.jpg"></div>
 				</div>
@@ -88,7 +98,7 @@
 					<div class="material-image-alt"><img src="/img/material04.jpg"></img></div>
 					<div class="material-info-alt">
 						<h4>Inox</h4>
-						<p>Stainless steel makes some of the most beautiful and durable shinny structures. Jussaume’s product are made with standard 304 grade stainless steel which is proven to withstand almost every environment. For extra durability 316* marine grade stainless is available for even the harshest ocean regions. Also, both stainless steel grades are offered with electropolishing.<sup>1</sup>.</p>
+						<p>Stainless steel makes some of the most beautiful and durable shinny structures. Jussaume’s product are made with standard 304 grade stainless steel which is proven to withstand almost every environment. For extra durability 316* marine grade stainless is available for even the harshest ocean regions. Also, both stainless steel grades are offered with electropolishing.<sup>1</sup></p>
 						<p style="font-size: 12px;"><sup>1</sup> Standard prices do not include 316 marine grade and electropolishing. Contact us!</p>
 					</div>
 				</div>

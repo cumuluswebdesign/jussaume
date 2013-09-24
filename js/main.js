@@ -1,10 +1,11 @@
 // Logo hover
+// Note: We do this in JS and not with CSS animations to prevent layer creation, which messes with anti-aliasing on the icon
 if (!$('#logo').find('img').hasClass('current-page')) {
 	$('#logo').hover(function() {
-		$(this).find('img').css('opacity', '1');
+		$(this).find('img').animate({opacity: 1}, 100);
 	},
 	function() {
-		$(this).find('img').css('opacity', '0.5');
+		$(this).find('img').animate({opacity: 0.5}, 100);
 	});
 }
 

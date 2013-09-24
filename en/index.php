@@ -7,7 +7,6 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Mobilier Jussaume | Home</title>
-		<meta name="description" content="">
 		
 		<?php include '../includes/head.php'; ?>
 
@@ -36,20 +35,22 @@
 				</div>
 
 				<div class="content-box">
-					<h3>Materials</h3>
 					<p>An array of materials carefully picked for one great quality.</p>
 					<p style="margin-top: 15px;"><a href="materials.php">Learn more</a></p>
+					<img src="/img/home/materials.jpg">
 				</div>
 				<div class="content-box">
-					<h3>From scratch</h3>
-					<p>It says it all. Anything is possible.</p>
-					<p>Be creative.</p>
+					<p>
+						It says it all, anything is possible.<br>
+						Be creative.
+					</p>
 					<p style="margin-top: 15px;"><a href="custom.php#from-scratch">Learn more</a></p>
+					<img src="/img/home/from-scratch.png">
 				</div>
 				<div class="content-box last-box">
-					<h3>Mix and match</h3>
 					<p>Get your match by mixing our top of the line products.</p>
 					<p style="margin-top: 15px;"><a href="custom.php#mix-match">Learn more</a></p>
+					<img src="/img/home/mix-match.png">
 					</p>
 				</div>
 			</div>
@@ -73,7 +74,7 @@
 			});
 
 			$('nav, .slider, .content-box, #headline').css('opacity', '1');
-			$('.container').animate({height: $('.content-box').outerHeight() + $('.slider').outerHeight() + $('#headline').outerHeight()}, 500);
+			$('.container').animate({height: $('.content-box').outerHeight() + $('.slider').outerHeight() + $('#headline').outerHeight() - 40}, 500);
 		</script>
 	</body>
 </html>

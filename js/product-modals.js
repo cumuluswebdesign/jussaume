@@ -36,19 +36,24 @@ $('[class^=product-link-]').each(function() {
 		});
 
 		//Load product info
-		$.get('/ajax/getProductInfo.php?lang=en&product=' + product, function(productInfo) {
+		$.get('/ajax/getProductInfo.php?lang=' + document.location.href.split('//')[1].split('/')[1] + '&product=' + product, function(productInfo) {
 			$('#modal-product h3').text(productInfo.name);
 
 			var dimensionHtml = "";
 			productInfo.dimensions.forEach(function(dimension) {
-				dimensionHtml += dimension + '<br>';
+				if (dimension.length > 1) {
+					dimensionHtml += dimension[1] + ' (' + dimension[0] + ')<br>';
+				}
+				else {
+					dimensionHtml += dimension[0] + '<br>';
+				}
 			});
 			dimensionHtml = dimensionHtml.substr(0, dimensionHtml.length - 4); //Remove the last <br>
 			$('#product-dimensions').html(dimensionHtml);
 
 			$('#product-materials').text(productInfo.materials);
 			$('#product-warranty').text(productInfo.warranty);
-			$('#product-id').text(productInfo.id.toUpperCase());
+			$('#product-id').text(productInfo.id);
 		});
 
 		function handleFileLoad(event) {

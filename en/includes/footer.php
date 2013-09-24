@@ -6,7 +6,10 @@
 		<li><a href="custom.php">Custom</a></li>
 		<li class="modal-link-about"><a>About</a></li>
 		<li class="modal-link-contact"><a>Contact</a></li>
-		<li style="float: right"><a href="/docs/documentation.pdf" target="_blank">Documentation</a></li>
+
+		<li style="float: right"><a href="/fr<?php echo substr($_SERVER['REQUEST_URI'], 3); ?>">Français</a></li>
+		<li style="float: right"><a href="/en/docs/maintenance-tips.pdf" target="_blank">Maintenance Tips</a></li>
+		<li style="float: right"><a href="/en/docs/warranty.pdf" target="_blank">Warranty</a></li>
 	</ul>
 
 	<small>&copy; <?php echo date('Y'); ?> Jussaume Entreprises Inc.</small>

@@ -15,6 +15,10 @@
 
 		$product['dimensions'] = explode(';', $product['dimensions']);
 
+		foreach ($product['dimensions'] as &$dimension) {
+			$dimension = explode(':', $dimension);
+		}
+
 		echo json_encode($product);
 	}
 

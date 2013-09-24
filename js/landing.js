@@ -13,7 +13,7 @@ $(window).resize(function() {
 });
 
 //Animations on link click
-$('#en-link, #fr-link').click(function() {
+$('#en-link, #fr-link').click(function(e) {
 	var clickedLink = $(this);
 
 	$('#border').animate({height: 60}, 1000);
@@ -29,4 +29,6 @@ $('#en-link, #fr-link').click(function() {
 	}, 1000, 'swing', function() {
 		location.href = clickedLink.attr('id').split('-')[0];
 	});
+
+	e.preventDefault();
 });

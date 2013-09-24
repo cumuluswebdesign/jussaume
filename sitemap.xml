@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas sitemap/0.9/sitemap.xsd">
+	
+	<!-- Root -->
+	<url>
+		<loc>http://mobilierjussaume.com/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+
+	<!-- English -->
+	<url>
+		<loc>http://mobilierjussaume.com/en/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>http://mobilierjussaume.com/en/collections.php</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>http://mobilierjussaume.com/en/materials.php</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>http://mobilierjussaume.com/en/custom.php</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+
+	<!-- Francais -->
+	<url>
+		<loc>http://mobilierjussaume.com/fr/</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>http://mobilierjussaume.com/fr/collections.php</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>http://mobilierjussaume.com/fr/materials.php</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+	<url>
+		<loc>http://mobilierjussaume.com/fr/custom.php</loc>
+		<changefreq>weekly</changefreq>
+	</url>
+
+	<!-- Docs -->
+	<url>
+		<loc>http://mobilierjussaume.com/docs/documentation.pdf</loc>
+		<lastmod>2013-08-23T20:46:12+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+	</url>
+</urlset>

@@ -6,8 +6,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>Home | Mobilier Jussaume</title>
-		<meta name="description" content="">
+		<title>Mobilier Jussaume</title>
 
 		<?php include 'includes/head.php'; ?>
 	</head>
@@ -21,8 +20,8 @@
 		<div id="landing-wrapper">
 			<img src="img/logo.svg" id="main-logo">
 			<ul id="language-select">
-				<li class="language"><a id="en-link">English</a></li>
-				<li class="language" style="margin: 0"><a id="fr-link">Français</a></li>
+				<li class="language"><a id="en-link" href="/en">English</a></li>
+				<li class="language" style="margin: 0"><a id="fr-link" href="/fr">Français</a></li>
 			</ul>
 		</div>
 
@@ -30,7 +29,5 @@
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
 		<script src="/js/landing.js"></script>
-
-		<!-- GA TODO -->
 	</body>
 </html>
