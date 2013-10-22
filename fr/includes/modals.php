@@ -8,14 +8,14 @@
 
     <fieldset>
       <div style="float: left; width: 340px;">
-        <input type="text" name="name" placeholder="Name">
-        <input type="email" name="email" placeholder="Email">
-        <input type="text" name="company" placeholder="Company (Optional)">
+        <input type="text" name="name" placeholder="Nom">
+        <input type="email" name="email" placeholder="Courriel">
+        <input type="text" name="company" placeholder="Compagnie (Optionnel)">
       </div>
 
-      <textarea name="message" placeholder="Your message"></textarea>
+      <textarea name="message" placeholder="Votre message"></textarea>
    
-      <input type="button" value="Send">
+      <input type="button" value="Envoyer">
     </fieldset>
   </form>
 </div>

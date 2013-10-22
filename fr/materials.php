@@ -63,7 +63,7 @@
 							<li>Entretien facile</li>
 							<li>Fraîcheur de l'assise</li>
 							<li>Importé</li>
-							<li><a class="modal-link-batyline-colors">Offert en plusieurs couleurs</a></li>
+							<li><a class="modal-link-batylinecolors">Offert en plusieurs couleurs</a></li>
 						</ul>
 					</div>
 					<div class="material-image"><img src="/img/material01.jpg"></div>
@@ -112,10 +112,8 @@
 
 		<?php include 'includes/modals.php'; ?>
 
-		<div id="modal-about" class="modal">
-			<h3>À Propos</h3>
-			<p>Établie à Montréal, Mobilier Jussaume conçoit, réalise et fournit ses produits d’ameublement exclusif aux établissements commerciaux et aux distributeurs.</p>
-		  <p style="margin-top: 20px;">Notre conception de mobilier comporte des lignes épurées qui s’intègrent bien à l’environnement moderne que vous recherchez.</p>
+		<div id="modal-batylinecolors" class="modal" style="text-align: center;">
+			<img src="/img/batyline-colors.jpg" alt="Batyline Colors">
 		</div>
 
 		<?php include 'includes/scripts.php'; ?>

@@ -62,6 +62,7 @@
 							<li>Easy maintenance</li>
 							<li>Seat coolness</li>
 							<li>Imported</li>
+							<li><a class="modal-link-batylinecolors">Offered in multiple colors</a></li>
 						</ul>
 					</div>
 					<div class="material-image"><img src="/img/material01.jpg"></div>
@@ -109,6 +110,11 @@
 		</div>
 
 		<?php include 'includes/modals.php'; ?>
+
+		<div id="modal-batylinecolors" class="modal" style="text-align: center;">
+			<img src="/img/batyline-colors.jpg" alt="Batyline Colors">
+		</div>
+
 		<?php include 'includes/scripts.php'; ?>
 
 		<script src="/js/sections-nav.js"></script>
