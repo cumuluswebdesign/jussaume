@@ -57,22 +57,21 @@
 				<div class="item"><a class="product-link-h001"><img src="/img/hampton/h001.jpg" alt="h001"></a></div>
 				<div class="item"><a class="product-link-h002"><img src="/img/hampton/h002.jpg" alt="h002"></a></div>
 				<div class="item"><a class="product-link-h003"><img src="/img/hampton/h003.jpg" alt="h003"></a></div>
-				<div class="item"><a class="product-link-h004"><img src="/img/hampton/h004.jpg" alt="h004"></a></div>
-
 				<div class="item"><a class="product-link-h005"><img src="/img/hampton/h005.jpg" alt="h005"></a></div>
+
 				<div class="item"><a class="product-link-h006"><img src="/img/hampton/h006.jpg" alt="h006"></a></div>
 				<div class="item"><a class="product-link-h007"><img src="/img/hampton/h007.jpg" alt="h007"></a></div>
 				<div class="item"><a class="product-link-h008"><img src="/img/hampton/h008.jpg" alt="h008"></a></div>
-
 				<div class="item"><a class="product-link-h009"><img src="/img/hampton/h009.jpg" alt="h009"></a></div>
-				<div class="item"><a class="product-link-h010"><img src="/img/hampton/h010.jpg" alt="h010"></a></div>
-				<div class="item"><a class="product-link-h020"><img src="/img/hampton/h020.jpg" alt="h020"></a></div>
-				<div class="item"><a class="product-link-h040"><img src="/img/hampton/h040.jpg" alt="h040"></a></div>
 
-				<div class="item last-row"><a class="product-link-h050"><img src="/img/hampton/h050.jpg" alt="h050"></a></div>
-				<div class="item last-row"><a class="product-link-h060"><img src="/img/hampton/h060.jpg" alt="h060"></a></div>
-				<div class="item last-row"><a class="product-link-h070"><img src="/img/hampton/h070.jpg" alt="h070"></a></div>
+				<div class="item"><a class="product-link-h010"><img src="/img/hampton/h010.jpg" alt="h010"></a></div>
+				<div class="item"><a class="product-link-h040"><img src="/img/hampton/h040.jpg" alt="h040"></a></div>
+				<div class="item"><a class="product-link-h060"><img src="/img/hampton/h060.jpg" alt="h060"></a></div>
+				<div class="item"><a class="product-link-h070"><img src="/img/hampton/h070.jpg" alt="h070"></a></div>
+				
 				<div class="item last-row"><a class="product-link-h080"><img src="/img/hampton/h080.jpg" alt="h080"></a></div>
+				<div class="item last-row"><a class="product-link-hsto1"><img src="/img/hampton/hsto1.jpg"></a></div>
+				<div class="item last-row"><a class="product-link-hcab1"><img src="/img/hampton/hcab1.jpg"></a></div>
 
 				<div class="section-header collection-header" id="manhattan-header"><h3>Manhattan</h3></div>
 
