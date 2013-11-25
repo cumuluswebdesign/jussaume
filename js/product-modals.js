@@ -73,7 +73,7 @@ $('[class^=product-link-]').each(function() {
 			});
 
 			$('.slider').unslider({
-				speed: 800,
+				speed: 650,
 				delay: 4000,
 				keys: false
 			});
