@@ -116,6 +116,8 @@
 					<span id="product-materials"></span><br><br>
 					<strong>Warranty</strong><br>
 					<span id="product-warranty"></span><br><br>
+					<strong>Colors</strong><br>
+					<span id="product-colors"></span>
 				</p>
 			</div>
 			<div id="thumbs"></div>

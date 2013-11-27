@@ -117,6 +117,8 @@
 					<span id="product-materials"></span><br><br>
 					<strong>Garantie</strong><br>
 					<span id="product-warranty"></span><br><br>
+					<strong>Couleurs offertes</strong><br>
+					<span id="product-colors"></span>
 				</p>
 			</div>
 			<div id="thumbs"></div>

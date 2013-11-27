@@ -114,6 +114,7 @@
 
 		<div id="modal-batylinecolors" class="modal" style="text-align: center;">
 			<img src="/img/batyline-colors.jpg" alt="Batyline Colors">
+			<p style="margin-top: 15px;">Ces couleurs sont seulement offertes aux clients commerciaux.</p>
 		</div>
 
 		<?php include 'includes/scripts.php'; ?>
