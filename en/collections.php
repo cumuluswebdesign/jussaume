@@ -74,12 +74,11 @@
 
 				<div class="section-header collection-header" id="manhattan-header"><h3>Manhattan</h3></div>
 
-				<div class="item"><a class="product-link-m001"><img src="/img/manhattan/m001.jpg" alt="m001"></a></div>
 				<div class="item"><a class="product-link-m002"><img src="/img/manhattan/m002.jpg" alt="m002"></a></div>
 				<div class="item"><a class="product-link-m003"><img src="/img/manhattan/m003.jpg" alt="m003"></a></div>
 				<div class="item"><a class="product-link-m004"><img src="/img/manhattan/m004.jpg" alt="m004"></a></div>
+				<div class="item"><a class="product-link-m005"><img src="/img/manhattan/m005.jpg" alt="m005"></a></div>
 
-				<div class="item last-row"><a class="product-link-m005"><img src="/img/manhattan/m005.jpg" alt="m005"></a></div>
 				<div class="item last-row"><a class="product-link-m020"><img src="/img/manhattan/m020.jpg" alt="m020"></a></div>
 				<div class="item last-row"><a class="product-link-m030"><img src="/img/manhattan/m030.jpg" alt="m030"></a></div>
 
