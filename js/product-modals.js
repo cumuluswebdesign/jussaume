@@ -59,7 +59,7 @@ $('[class^=product-link-]').click(function() {
 			$('#product-colors').append('<div class="color-option"><img src="/img/colors/' + color.toLowerCase() + '.png"><br><span>' + color + '</span></div>');
 		});
 
-		$('#product-materials').text(productInfo.materials);
+		$('#product-materials').html(productInfo.materials);
 		$('#product-warranty').text(productInfo.warranty);
 		$('#product-id').text(productInfo.id);
 	});
