@@ -1,12 +1,5 @@
 $('[class^=product-link-]').each(function() {
 	$(this).click(function() {
-		//Refresh the modal
-		$('#product-colors').empty();
-		$('#modal-product .slider').remove();
-		$('<ul />').appendTo($('<div />').addClass('slider').insertAfter('#desc-div'));
-		$('#thumbs').empty();
-		console.log("CLEAR COLORS");
-			
 		var photos = [];
 
 		var product = $(this).attr('class').split('-')[2];
@@ -59,6 +52,8 @@ $('[class^=product-link-]').each(function() {
 			$('#product-dimensions').html(dimensionHtml);
 
 			//Append the colors
+			$('#product-colors').empty();
+
 			productInfo.colors = $.map(productInfo.colors.split(';'), function(colorName) {return colorName.charAt(0).toUpperCase() + colorName.slice(1)});
 			$.each(productInfo.colors, function(index, color) {
 				console.log("APPEND COLOR");
@@ -75,6 +70,10 @@ $('[class^=product-link-]').each(function() {
 		}
 
 		function handleComplete() {
+			$('#modal-product .slider').remove();
+			$('<ul />').appendTo($('<div />').addClass('slider').insertAfter('#desc-div'));
+			$('#thumbs').empty();
+		
 			//Append the images
 			photos.forEach(function(photo) {
 				$('#modal-product ul').append($('<li />').append(photo));
