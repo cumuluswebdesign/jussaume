@@ -24,7 +24,6 @@
 			<div class="container">
 				<div class="slider">
 					<ul>
-						<li><a href="collections.php#hampton-header"><img src="/img/slider01.jpg"></a></li>
 						<li><a href="collections.php#manhattan-header"><img src="/img/slider02.jpg"></a></li>
 						<li><a href="collections.php#vancouver-header"><img src="/img/slider04.jpg"></a></li>
 					</ul>
