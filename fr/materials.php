@@ -32,7 +32,7 @@
 							<img src="/img/material-teak.png">
 						</div>
 
-						<p>Teak</p>
+						<p>Teck</p>
 					</div>
 
 					<div class="section" id="wicker-nav">
@@ -40,7 +40,7 @@
 							<img src="/img/material-wicker.png">
 						</div>
 
-						<p>Wicker</p>
+						<p>Rotin</p>
 					</div>
 
 					<div class="section section-last" id="inox-nav">

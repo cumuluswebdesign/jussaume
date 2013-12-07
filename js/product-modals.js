@@ -1,5 +1,8 @@
 $('[class^=product-link-]').each(function() {
-	$(this).click(function() {	
+	$(this).click(function() {
+		//Refresh the modal
+		$('#product-colors').empty();
+
 		var photos = [];
 
 		var product = $(this).attr('class').split('-')[2];
@@ -67,11 +70,9 @@ $('[class^=product-link-]').each(function() {
 		}
 
 		function handleComplete() {
-			//Refresh the modal
 			$('#modal-product .slider').remove();
 			$('<ul />').appendTo($('<div />').addClass('slider').insertAfter('#desc-div'));
 			$('#thumbs').empty();
-			$('#product-colors').empty();
 		
 			//Append the images
 			photos.forEach(function(photo) {
