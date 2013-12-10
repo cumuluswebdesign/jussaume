@@ -13,7 +13,7 @@
     $mail->Host = 'smtp.gmail.com';
     $mail->Port = 465;
     $mail->SMTPAuth = true;
-    $mail->Username = 'frank@volume7.io';
+    $mail->Username = 'hello@volume7.io';
     $mail->Password = 'mariotis';
     $mail->SMTPSecure = 'ssl';
 
