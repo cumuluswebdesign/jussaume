@@ -3,8 +3,7 @@ function emphasizeNav($navElement, doResize) {
 
 	if (doResize) {
 		$navElement.find('img').css({
-			'width': '100px',
-			'margin-top': '0'
+			'transform': 'scale(1.1, 1.1)'
 		});
 	}
 
@@ -16,8 +15,7 @@ function deEmphasizeNav($navElement, doResize) {
 
 	if (doResize) {
 		$navElement.find('img').css({
-			'width': '90px',
-			'margin-top': '5px'
+			'transform': 'scale(1,1)'
 		});
 	}
 
