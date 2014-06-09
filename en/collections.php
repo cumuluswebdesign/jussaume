@@ -104,7 +104,7 @@
 		<?php include 'includes/modals.php'; ?>
 
 		<div id="modal-product" class="modal">
-			<div class="modal-close">x</div>
+			<div class="modal-close">×</div>
 			<div id="desc-div">
 				<h3>La chaise.</h3>
 				<p class="product-description">
