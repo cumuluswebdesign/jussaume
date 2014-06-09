@@ -8,7 +8,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Mobilier Jussaume | Collections</title>
 		<meta name="description" content="Montreal based, Mobilier Jussaume, designs, manufactures and supplies exclusive furniture to commercial establishments and distributors.">
-		
+
 		<?php include '../includes/head.php'; ?>
 	</head>
 	<body>
@@ -18,7 +18,7 @@
 		<div class="wrapper">
 			<div class="container" style="margin-top: 247px;">
 				<div class="sections-nav">
-					
+
 					 <div class="section" id="hampton-nav">
 					 	<div class="section-image-container">
 							<img src="/img/circle-hampton.png">
@@ -95,7 +95,10 @@
 
 				<div class="section-header collection-header" id="vancouver-header"><h3>Vancouver</h3></div>
 
-				<p class="coming-soon">À Venir</p>
+				<div class="item"><a class="product-link-v001"><img src="/img/vancouver/v001.jpg" alt="v001"></a></div>
+				<div class="item"><a class="product-link-v002"><img src="/img/vancouver/v002.jpg" alt="v002"></a></div>
+				<div class="item"><a class="product-link-v020"><img src="/img/vancouver/v020.jpg" alt="v020"></a></div>
+				<div class="item"><a class="product-link-v030"><img src="/img/vancouver/v030.jpg" alt="v030"></a></div>
 			</div>
 
 			<?php include 'includes/footer.php'; ?>

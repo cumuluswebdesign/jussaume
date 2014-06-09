@@ -7,7 +7,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>Mobilier Jussaume | Collections</title>
-		
+
 		<?php include '../includes/head.php'; ?>
 	</head>
 	<body>
@@ -17,7 +17,7 @@
 		<div class="wrapper">
 			<div class="container" style="margin-top: 247px;">
 				<div class="sections-nav">
-					
+
 					 <div class="section" id="hampton-nav">
 					 	<div class="section-image-container">
 							<img src="/img/circle-hampton.png">
@@ -66,10 +66,9 @@
 
 				<div class="item"><a class="product-link-h040"><img src="/img/hampton/h040.jpg" alt="h040"></a></div>
 				<div class="item"><a class="product-link-h060"><img src="/img/hampton/h060.jpg" alt="h060"></a></div>
-				<div class="item"><a class="product-link-h070"><img src="/img/hampton/h070.jpg" alt="h070"></a></div>
 				<div class="item"><a class="product-link-h080"><img src="/img/hampton/h080.jpg" alt="h080"></a></div>
+				<div class="item"><a class="product-link-hsto1"><img src="/img/hampton/hsto1.jpg"></a></div>
 
-				<div class="item last-row"><a class="product-link-hsto1"><img src="/img/hampton/hsto1.jpg"></a></div>
 				<div class="item last-row"><a class="product-link-hcab1"><img src="/img/hampton/hcab1.jpg"></a></div>
 
 				<div class="section-header collection-header" id="manhattan-header"><h3>Manhattan</h3></div>
@@ -86,15 +85,17 @@
 
 				<div class="item"><a class="product-link-p001"><img src="/img/paris/p001.jpg" alt="p001"></a></div>
 				<div class="item"><a class="product-link-p002"><img src="/img/paris/p002.jpg" alt="p002"></a></div>
-				<div class="item"><a class="product-link-p003"><img src="/img/paris/p003.jpg" alt="p003"></a></div>
 				<div class="item"><a class="product-link-p004"><img src="/img/paris/p004.jpg" alt="p004"></a></div>
+				<div class="item"><a class="product-link-p010"><img src="/img/paris/p010.jpg" alt="p010"></a></div>
 
-				<div class="item last-row"><a class="product-link-p010"><img src="/img/paris/p010.jpg" alt="p010"></a></div>
 				<div class="item last-row"><a class="product-link-p020"><img src="/img/paris/p020.jpg" alt="p020"></a></div>
 
 				<div class="section-header collection-header" id="vancouver-header"><h3>Vancouver</h3></div>
-				
-				<p class="coming-soon">Coming Soon</p>
+
+				<div class="item"><a class="product-link-v001"><img src="/img/vancouver/v001.jpg" alt="v001"></a></div>
+				<div class="item"><a class="product-link-v002"><img src="/img/vancouver/v002.jpg" alt="v002"></a></div>
+				<div class="item"><a class="product-link-v020"><img src="/img/vancouver/v020.jpg" alt="v020"></a></div>
+				<div class="item"><a class="product-link-v030"><img src="/img/vancouver/v030.jpg" alt="v030"></a></div>
 			</div>
 
 			<?php include 'includes/footer.php'; ?>
