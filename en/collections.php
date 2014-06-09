@@ -92,10 +92,10 @@
 
 				<div class="section-header collection-header" id="vancouver-header"><h3>Vancouver</h3></div>
 
-				<div class="item"><a class="product-link-v001"><img src="/img/vancouver/v001.jpg" alt="v001"></a></div>
-				<div class="item"><a class="product-link-v002"><img src="/img/vancouver/v002.jpg" alt="v002"></a></div>
-				<div class="item"><a class="product-link-v020"><img src="/img/vancouver/v020.jpg" alt="v020"></a></div>
-				<div class="item"><a class="product-link-v030"><img src="/img/vancouver/v030.jpg" alt="v030"></a></div>
+				<div class="item last-row"><a class="product-link-v001"><img src="/img/vancouver/v001.jpg" alt="v001"></a></div>
+				<div class="item last-row"><a class="product-link-v002"><img src="/img/vancouver/v002.jpg" alt="v002"></a></div>
+				<div class="item last-row"><a class="product-link-v020"><img src="/img/vancouver/v020.jpg" alt="v020"></a></div>
+				<div class="item last-row"><a class="product-link-v030"><img src="/img/vancouver/v030.jpg" alt="v030"></a></div>
 			</div>
 
 			<?php include 'includes/footer.php'; ?>
