@@ -60,14 +60,12 @@
 				<div class="item"><a class="product-link-h006"><img src="/img/hampton/h006.jpg" alt="h006"></a></div>
 
 				<div class="item"><a class="product-link-h007"><img src="/img/hampton/h007.jpg" alt="h007"></a></div>
-				<div class="item"><a class="product-link-h008"><img src="/img/hampton/h008.jpg" alt="h008"></a></div>
 				<div class="item"><a class="product-link-h009"><img src="/img/hampton/h009.jpg" alt="h009"></a></div>
 				<div class="item"><a class="product-link-h010"><img src="/img/hampton/h010.jpg" alt="h010"></a></div>
 
 				<div class="item"><a class="product-link-h040"><img src="/img/hampton/h040.jpg" alt="h040"></a></div>
 				<div class="item"><a class="product-link-h060"><img src="/img/hampton/h060.jpg" alt="h060"></a></div>
 				<div class="item"><a class="product-link-h080"><img src="/img/hampton/h080.jpg" alt="h080"></a></div>
-				<div class="item"><a class="product-link-hsto1"><img src="/img/hampton/hsto1.jpg"></a></div>
 
 				<div class="item last-row"><a class="product-link-hcab1"><img src="/img/hampton/hcab1.jpg"></a></div>
 
@@ -75,7 +73,6 @@
 
 				<div class="item"><a class="product-link-m002"><img src="/img/manhattan/m002.jpg" alt="m002"></a></div>
 				<div class="item"><a class="product-link-m003"><img src="/img/manhattan/m003.jpg" alt="m003"></a></div>
-				<div class="item"><a class="product-link-m004"><img src="/img/manhattan/m004.jpg" alt="m004"></a></div>
 				<div class="item"><a class="product-link-m005"><img src="/img/manhattan/m005.jpg" alt="m005"></a></div>
 
 				<div class="item last-row"><a class="product-link-m020"><img src="/img/manhattan/m020.jpg" alt="m020"></a></div>
@@ -94,7 +91,6 @@
 
 				<div class="item last-row"><a class="product-link-v001"><img src="/img/vancouver/v001.jpg" alt="v001"></a></div>
 				<div class="item last-row"><a class="product-link-v002"><img src="/img/vancouver/v002.jpg" alt="v002"></a></div>
-				<div class="item last-row"><a class="product-link-v020"><img src="/img/vancouver/v020.jpg" alt="v020"></a></div>
 				<div class="item last-row"><a class="product-link-v030"><img src="/img/vancouver/v030.jpg" alt="v030"></a></div>
 			</div>
 
