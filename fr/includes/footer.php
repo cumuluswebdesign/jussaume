@@ -12,5 +12,5 @@
 		<li style="float: right"><a href="/fr/docs/garantie.pdf" target="_blank">Garantie</a></li>
 	</ul>
 
-	<small><span style="float: left;">&copy; <?php echo date('Y'); ?> Jussaume Entreprises Inc.</span></small>
+	<small><span>&copy; <?php echo date('Y'); ?> Jussaume Entreprises Inc.</span></small>
 </footer>
