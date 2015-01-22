@@ -2,7 +2,7 @@
 
 <div id="modal-contact" class="modal">
 	<h3>Contact</h3>
-	<p>For questions, quotes or support, please contact us at <a href="mailto:info@mobilierjussaume.com">info@mobilierjussaume.com</a> or use the following form:</p>
+	<p>For questions, quotes or support, please contact us at <a href="mailto:charles@mobilierjussaume.com">charles@mobilierjussaume.com</a> or use the following form:</p>
   <form id="contact">
     <div id="notification">Your message has been sent. We will reply as soon as we can.</div>
 

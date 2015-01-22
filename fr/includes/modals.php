@@ -2,7 +2,7 @@
 
 <div id="modal-contact" class="modal">
 	<h3>Nous Joindre</h3>
-	<p>Pour toutes questions, soumissions ou commentaires, veuillez-nous écrire à l’adresse suivante : <a href="mailto:info@mobilierjussaume.com">info@mobilierjussaume.com</a> ou remplir le formulaire ci-dessous :</p>
+	<p>Pour toutes questions, soumissions ou commentaires, veuillez-nous écrire à l’adresse suivante : <a href="mailto:charles@mobilierjussaume.com">charles@mobilierjussaume.com</a> ou remplir le formulaire ci-dessous :</p>
 	<form id="contact">
 		<div id="notification">Votre message a été envoyé. Nous vous répondrons dès que possible.</div>
 
