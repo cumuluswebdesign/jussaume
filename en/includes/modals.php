@@ -14,7 +14,7 @@
       </div>
 
       <textarea name="message" placeholder="Your message"></textarea>
-   
+
       <input type="button" value="Send">
     </fieldset>
   </form>

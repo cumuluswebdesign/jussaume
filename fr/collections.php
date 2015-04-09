@@ -89,9 +89,15 @@
 
 				<div class="section-header collection-header" id="vancouver-header"><h3>Vancouver</h3></div>
 
-				<div class="item last-row"><a class="product-link-v001"><img src="/img/vancouver/v001.jpg" alt="v001"></a></div>
-				<div class="item last-row"><a class="product-link-v002"><img src="/img/vancouver/v002.jpg" alt="v002"></a></div>
-				<div class="item last-row"><a class="product-link-v030"><img src="/img/vancouver/v030.jpg" alt="v030"></a></div>
+				<div class="item"><a class="product-link-v001"><img src="/img/vancouver/v001.jpg" alt="v001"></a></div>
+				<div class="item"><a class="product-link-v002"><img src="/img/vancouver/v002.jpg" alt="v002"></a></div>
+				<div class="item"><a class="product-link-v010a"><img src="/img/vancouver/v010a.jpg" alt="v010a"></a></div>
+				<div class="item"><a class="product-link-v020"><img src="/img/vancouver/v020.jpg" alt="v020"></a></div>
+				<div class="item"><a class="product-link-v030"><img src="/img/vancouver/v030.jpg" alt="v030"></a></div>
+				<div class="item"><a class="product-link-v040"><img src="/img/vancouver/v040.jpg" alt="v040"></a></div>
+				<div class="item"><a class="product-link-v100"><img src="/img/vancouver/v100.jpg" alt="v100"></a></div>
+				<div class="item"><a class="product-link-v200"><img src="/img/vancouver/v200.jpg" alt="v200"></a></div>
+				<div class="item last-row"><a class="product-link-v300"><img src="/img/vancouver/v300.jpg" alt="v300"></a></div>
 			</div>
 
 			<?php include 'includes/footer.php'; ?>
