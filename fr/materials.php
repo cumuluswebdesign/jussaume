@@ -16,7 +16,7 @@
 		<?php include 'includes/header.php'; ?>
 
 		<div class="wrapper">
-			<div class="container" style="margin-top: 247px;">
+			<div class="container" style="margin-top: 233px;">
 				<div class="sections-nav">
 
 					<div class="section" id="batyline-nav">
