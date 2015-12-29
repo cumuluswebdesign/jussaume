@@ -41,7 +41,7 @@
                 <h1>Countertop</h1>
                 <ul id="menu">
                     <li data-menuanchor="intro"><a href="#intro" class="sliding">Intro</a></li>
-                    <li data-menuanchor="other_info"><a href="#other_info" class="sliding">Other Info</a></li>
+                    <li data-menuanchor="other_info"><a href="#other_info" class="sliding">Convenience</a></li>
                 </ul>
             </div>
         </div>
@@ -57,7 +57,7 @@
             </div>
             <div class="section" id="section1">
                 <div class="section-in v-center dark">
-                    <span class="over-title">Table Tops</span>
+                    <span class="over-title">Coutertop</span>
                     <h1>Convenience</h1>
                     <p class="quote">Useful. Beautiful. Just better.</p>
                     <p>Not only does it offer a bold look in any kitchen, it’s also incredibly practical. Your whole counter turns into a big beautiful cutting board. Being made of Rock Maple, the surface is naturally hygienic. Perfect for food preparation.</p>

@@ -51,7 +51,7 @@
             <div class="section" id="section0">
                 <div class="section-in v-center">
                     <span class="over-title">Butcher Blocks</span>
-                    <h1>Tabletops</h1>
+                    <h1>Tabletop</h1>
                     <p>Jussaume’s hardwood butcher block tops are better in every way. They offer the warmth of true hardwood without the high price tag. The tabletops are specifically designed for restaurants and institutions. By choosing your wood specie, dimensions and finish, it will suit your design and concept remarkably well.</p>
                     <a href="#diversity" class="btn hidden-xs">Diversity</a>
                 </div>
