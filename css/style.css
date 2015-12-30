@@ -1,6 +1,14 @@
 /*********************************************
 GLOBAL
 **********************************************/
+html {
+    height: 100%;
+}
+
+.v-center {
+    position: absolute
+}
+
 /* Clearfix */
 .clearfix:after {
     content: ".";
@@ -205,35 +213,67 @@ header {
 /*********************************************
 SUB-NAVIGATION
 **********************************************/
-.secondary-header {
-    background-color: #e3e3e3;
-    height: 30px;
-    box-shadow: 0 0 2px rgba(0,0,0,0.2);
-    z-index: 1;
+.full-header {
     display: none;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    z-index: 2;
 }
 
-.secondary-header .navigation {
-    padding-top: 14px;
-    padding-bottom: 5px;
+.full-header .side-header .overlay {
+    transition: 1s;
 }
-.secondary-header .navigation ul {
-    padding-left: 0;
+
+.full-header .side-header:hover > .overlay {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color:#000;
+    opacity:0.5;
 }
-.secondary-header .navigation li a {
-    text-shadow: none;
-    color: #111;
-    font-size: 10px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+.full-header .side-header {
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    background-position: center center;
+    overflow: auto;
 }
-.secondary-header .navigation li:first-child {
-    padding-left: 0;
+
+.full-header .side-header .full-center {
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    height: 30px;
 }
-.secondary-header .navigation li a:hover {
-    color: #a1a1a1;
+
+.full-header .side-header a {
+    font-size: 42px;
+    color: #fff;
+    font-weight: 200;
+    font-family: 'proxima-nova', 'helvetica', 'arial', sans-serif;
 }
+
+.full-header .side-header a.active {
+    color: rgba(0,0,0,50);
+}
+
+.full-header .side-header#table-tops { background-image: url('/img/slider1.jpg'); }
+.full-header .side-header#countertop { background-image: url('/img/slider4.jpg'); }
+
+.full-header .side-header#collections { background-image: url('/img/slider2.jpg'); }
+.full-header .side-header#materials { background-image: url('/img/slider03.jpg'); }
+
 .navigation .group {
     display: none;
 }
@@ -357,6 +397,33 @@ TOP MENU
 }
 
 /*********************************************
+SLIDER
+**********************************************/
+
+.slider-content {
+    text-align: center;
+}
+.slider-content h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+.slider-content h1.dark {
+    color: #fff;
+}
+.slider-content h1:after {
+    display: none;
+}
+.slider-content a.btn {
+    margin-top: 0;
+}
+
+/* Slider Background Images */
+
+#slide1 { background-image: url('/img/slider1.jpg') }
+#slide2 { background-image: url('/img/slider2.jpg') }
+#slide3 { background-image: url('/img/slider3.jpg') }
+
+/*********************************************
 SECTIONS
 **********************************************/
 
@@ -423,35 +490,27 @@ a.btn {
 /* Defining each section background and styles */
 .table_tops #section0 {
     background-image: url(../img/table-tops/intro.jpg);
-    padding: 0;
 }
 .table_tops #section1 {
     background-image: url(../img/table-tops/diversity.jpg);
-    padding: 0;
 }
 .table_tops #section2 {
     background-image: url(../img/table-tops/wood_species.jpg);
-    padding: 0;
 }
 .table_tops #section3 .section-current {
     background-image: url(../img/table-tops/finish_1.jpg);
-    padding: 0;
 }
 .table_tops #section4 {
     background-image: url(../img/table-tops/joints.jpg);
-    padding: 0;
 }
 .table_tops #section5 {
     background-image: url(../img/table-tops/reinforcements.jpg);
-    padding: 0;
 }
 .countertops #section0 {
     background-image: url(../img/countertops/context.jpg);
-    padding: 0;
 }
 .countertops #section1 {
     background-image: url(../img/countertops/zoom.jpg);
-    padding: 0;
 }
 
 .section-in p.quote {
@@ -821,6 +880,36 @@ UNDERLINE ANIMATION
 RESPONSIVE
 **********************************************/
 
+
+/* FIX FOR IPAD */
+@media screen and (max-aspect-ratio: 1/1) { 
+    .top-menu {
+        display: none;
+    }
+    .section-in .v-center {
+        top: 0;
+    }
+    .section {
+        padding: 100px 0;
+    }
+    .home .section {
+        padding: 0;
+    }
+    .section.fp-auto-height {
+        padding: 7px 0;
+    }
+    #section3 {
+        background: #d3d3d3;
+    }
+    .fade_box {
+        top: 35px;
+        left: -40px;;
+    }
+    .section-current, .section-last {
+        display: none;
+    }
+}
+
 /* xs */ 
 @media (max-width: 700px) { 
     
@@ -845,11 +934,12 @@ RESPONSIVE
     .section {
         background-size: cover;
         background-position: 50% 10%;
+        padding: 40px 0;
     }
     .section-in {
         position: inherit; /* Fullpage.js is disabled */
-        padding: 60px 40px;
-        padding-top: 450px;
+        padding: 20px 20px;
+        padding-top: 350px;
     }
         
     /* Defining each section background and styles */
@@ -866,7 +956,7 @@ RESPONSIVE
         background-image: none;
     }
     .table_tops #section3 .section-in {
-        padding-top: 80px;
+        padding: 0 20px;
     }
     .table_tops #section3 {
         background: #c9c9c9;
@@ -884,7 +974,7 @@ RESPONSIVE
         background-image: url(../img/countertops/zoom_xs.jpg);
     }
     /* Swatches */
-    .fade_box { display: block };
+    .fade_box { display: block; left: 0; !important }
     #modal-contact {
         width: 100%;
     }
@@ -999,13 +1089,21 @@ RESPONSIVE
         display: none;
     }
         
-    h1 { font-size: 50px; }
-    h1:after { margin-top: 20px; }
-    a.btn { display: none; }
+    h1 { font-size: 40px; margin-bottom: 10px; }
+    h1:after { display: none; }
+    .section-in a.btn { display: none; }
     .section { background-position: 80% 50%}
-    .section-in p { max-width: 350px; }
+    .section-in p { max-width: 350px; font-size: 14px; margin-top: 15px; }
+    .section-in p.quote { font-size: 15px; margin-bottom: 0; }
     .section-in { padding-left: 30px; } 
     
+    .swatch-group {
+        margin-top: 25px;
+    }
+    .swatch {
+        width: 25px;
+        height: 25px;
+    }
     header {
         height: 100%;
         display: none;
@@ -1041,34 +1139,9 @@ RESPONSIVE
     .primary-header .header-content ul li a {
         font-size: 27px;
     }
-    navigation .group {
-        display: none;
-    }
-    .secondary-header {
-        max-width: none;
-        text-align: center;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-        background: none;
-        box-shadow: none;
-    }
-    .secondary-header .header-content .navigation {
-        float: inherit;
-        text-align: center;
-    }
-    .secondary-header .header-content {
-        text-align: center;
-    }
-    .secondary-header .header-content ul li, .secondary-header .header-content ul li:first-child {
-        padding: 0 20px;
-    }
-    .secondary-header .header-content ul li a {
-        font-size: 12px;
-        color: #fff;
+    .navigation .group {
+        position: fixed;
+        width: 100%;
     }
     .top-menu { 
         padding-left: 30px; 
@@ -1081,8 +1154,6 @@ RESPONSIVE
     
     .primary-header { padding-left: 30px; } 
     .menu-icon-wrapper { top: 7px; }
-    /* Swatches */
-    .fade_box { display: none; }
     .modal-contact {
         width: 100%;
     }
@@ -1115,6 +1186,7 @@ RESPONSIVE
 
 /* lg */
 @media (min-width: 1200px) and (max-width: 1600px) { 
+    .section-in { padding-left: 30px; } 
     .section-in p { max-width: 400px; }
     .menu-icon-wrapper { display: none; }
     .fade_box { display: none; }
@@ -1129,6 +1201,13 @@ RESPONSIVE
     .fade_box { display: none; }
     .menu-icon-wrapper { display: none; }
     navigation .group {
+        display: none;
+    }
+}
+
+/* FIX FOR IPAD */
+@media screen and (min-aspect-ratio: 1/1) and (min-width: 700px) { 
+    .fade_box {
         display: none;
     }
 }

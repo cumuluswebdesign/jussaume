@@ -9,7 +9,8 @@
         function fullPage() {
             $(document).ready(function () {
             var width = $(window).width();
-            if(width > 700 ) {
+            var height = $(window).height();
+            if(width > 700 && width / height > 1) {
                 $('#fullpage').fullpage({
                     verticalCentered: false,
                     menu: "#menu",
@@ -25,11 +26,9 @@
 </head>
 
 <body>
-
-    <div class="wrapper">
-    
     <?php $page = "countertops"; ?>
     <?php include "includes/header.php"?>
+    <div class="wrapper">
         <div style="display: none" id="hideAll">&nbsp;</div>
         <script>
             document.getElementById("hideAll").style.display = "block";

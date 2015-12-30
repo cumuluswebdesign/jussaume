@@ -39,52 +39,50 @@
         $('#butcher-blocks').click(function(){
             if($(window).width() > 992) {
                 $('#outdoor-menu').fadeOut(50);
-                $('#butcher-block-menu').delay(50).slideToggle(150);
-            } else if($(window).width() < 701) {
+                $('#butcher-block-menu').delay(50).fadeToggle(150);
+            } else {
                 $('#outdoor-menu-xs').fadeOut(150).toggleClass('active');
                 $('#butcher-block-menu-xs').fadeToggle(150).toggleClass('active');
-            } else {
-                $('#outdoor-menu').fadeOut(150).toggleClass('active');
-                $('#butcher-block-menu').fadeToggle(150).toggleClass('active');
             }
         });
         $('#outdoor').click(function(){
             if($(window).width() > 992) {
                 $('#butcher-block-menu').fadeOut(50);
-                $('#outdoor-menu').delay(50).slideToggle(150);
-            } else if($(window).width() < 701) {
+                $('#outdoor-menu').delay(50).fadeToggle(150);
+            } else {
                 $('#butcher-block-menu-xs').fadeOut(150).toggleClass('active');
                 $('#outdoor-menu-xs').fadeToggle(150).toggleClass('active');
-            } else {
-                $('#butcher-block-menu').fadeOut(150).toggleClass('active');
-                $('#outdoor-menu').fadeToggle(150).toggleClass('active');
             }
         });
     </script>
-    
-    <div id="butcher-block-menu" class="secondary-header">
-        <div class="header-container">
-            <div class="header-content">
-                <div class="navigation">
-                    <ul>
-                        <li><a href="table-tops.php" class="<?php if ($page == "table-tops") {echo ' active';} ?>">Dessus de table</a></li>
-                        <li><a href="countertop.php" class="<?php if ($page == "countertops") {echo ' active';} ?>">Comptoir</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="outdoor-menu" class="secondary-header">
-        <div class="header-container">
-            <div class="header-content">
-                <div class="navigation">
-                    <ul>
-                        <li><a href="collections.php" class="<?php if ($page == "collections") {echo ' active';} ?>">Collections</a></li>
-                        <li><a href="materials.php" class="<?php if ($page == "materials") {echo ' active';} ?>">Matériaux</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    
+        
 </header>
+
+<div id="butcher-block-menu" class="full-header">
+    <div class="side-header" id="table-tops">
+       <div class="overlay"></div>
+       <div class="v-center">
+            <a href="table-tops.php" class="sliding <?php if ($page == "table-tops") {echo 'active';} ?>">Dessus de table</a>
+       </div>
+    </div><div class="side-header" id="countertop">
+        <div class="overlay"></div>
+        <div class="v-center">
+            <a href="countertop.php" class="sliding <?php if ($page == "countertops") {echo 'active';} ?>">Comptoir</a>
+        </div>
+    </div>
+</div>
+
+
+<div id="outdoor-menu" class="full-header">
+    <div class="side-header" id="collections">
+       <div class="overlay"></div>
+       <div class="v-center">
+            <a href="collections.php" class="sliding <?php if ($page == "collections") {echo 'active';} ?>">Collections</a>
+       </div>
+    </div><div class="side-header" id="materials">
+        <div class="overlay"></div>
+        <div class="v-center">
+            <a href="materials.php" class="sliding <?php if ($page == "materials") {echo 'active';} ?>">Matériaux</a>
+        </div>
+    </div>
+</div>

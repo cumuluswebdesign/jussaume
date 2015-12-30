@@ -26,11 +26,9 @@
 </head>
 
 <body>
-
-    <div class="wrapper">
-    
     <?php $page = "countertops"; ?>
     <?php include "includes/header.php"?>
+    <div class="wrapper">
     
     <div style="display: none" id="hideAll">&nbsp;</div>
         <script>

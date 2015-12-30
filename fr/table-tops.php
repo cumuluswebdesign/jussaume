@@ -23,10 +23,10 @@
 </head>
 
 <body>
+    <?php $page = "table-tops"; ?>
+    <?php include "includes/header.php"?>
     <div id="page" class="wrapper">
         
-        <?php $page = "table-tops"; ?>
-        <?php include "includes/header.php"?>
 		
            <div style="display: none" id="hideAll">&nbsp;</div>
         <script>

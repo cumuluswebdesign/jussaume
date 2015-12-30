@@ -5,13 +5,20 @@ HELPERS
 // Center in div
 function recalculateCenterInDiv(){
     $('.v-center').each(function(){
+        var parentHeight = $(this).parent().height();
+        var elementHeight = $(this).height();
+        $(this).css("top", parentHeight/2 - elementHeight/2 );
+    });
+    $('.full-center').each(function(){
         var parentHeight = $(window).height(); // Always equal to the full screen
         var elementHeight = $(this).height();
-        $(this).css("top", parentHeight/2 - elementHeight/2 + 47); // +50 for navbar
+        $(this).css("top", parentHeight/2 - elementHeight/2 );
     });
 }
 
-recalculateCenterInDiv();
+$( document ).ready(function() {
+    recalculateCenterInDiv();
+});
 
 // Redo when resizing
 $(window).resize(function () {

@@ -8,7 +8,8 @@
         function fullPage() {
             $(document).ready(function () {
             var width = $(window).width();
-            if(width > 700 ) {
+            var height = $(window).height();
+            if(width > 700 && width / height > 1) {
                 $('#fullpage').fullpage({
                     verticalCentered: false,
                     menu: "#menu",
@@ -23,10 +24,9 @@
 </head>
 
 <body>
+    <?php $page = "table-tops"; ?>
+    <?php include "includes/header.php"?>
     <div id="page" class="wrapper">
-        
-        <?php $page = "table-tops"; ?>
-        <?php include "includes/header.php"?>
         <div style="display: none" id="hideAll">&nbsp;</div>
         <script>
             document.getElementById("hideAll").style.display = "block";
@@ -103,7 +103,8 @@
                     }
                     
                     var width = $(window).width();
-                    if(width > 700) {
+                    var height = $(window).height();
+                    if(width > 700 && width / height > 1) {
                         $("#finish-1").click(function() { 
                             $('#section3 .section-last').css("background-image", getBackgroundImgUrl());
                             $('#section3 .section-current').hide().css("background-image", "url(/img/table-tops/finish_1.jpg)").fadeIn(300);
