@@ -42,7 +42,7 @@
                 $('#butcher-block-menu').delay(50).fadeToggle(150);
             } else {
                 $('#outdoor-menu-xs').fadeOut(150).toggleClass('active');
-                $('#butcher-block-menu-xs').fadeToggle(150).fadeToggle('active');
+                $('#butcher-block-menu-xs').fadeToggle(150).toggleClass('active');
             }
         });
         $('#outdoor').click(function(){
