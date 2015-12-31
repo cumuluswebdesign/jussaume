@@ -23,7 +23,7 @@
 		<?php $page = "home"; ?>
 		<?php include 'includes/header.php'; ?>
 
-		<div class="wrapper">
+		<div class="wrapper home">
 			<div id="fullpage">
                 <div class="section" id="section0">
                     <div class="slide" id="slide1" data-anchor="slide1">
