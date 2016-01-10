@@ -26,7 +26,7 @@
 		<div class="wrapper home">
 			<div id="fullpage">
                 <div class="section" id="section0">
-                    <div class="slide" id="slide1" data-anchor="slide1">
+                    <div class="slide left" id="slide1" data-anchor="slide1">
                         <div class="slider-content">
                             <h1 class="dark">Butcher Block Tabletop</h1>
                             <a href="table-tops.php" class="btn">Learn More</a>
@@ -43,7 +43,7 @@
                             <h1 class="dark">Butcher Block Countertop</h1>
                             <a href="countertop.php" class="btn">Learn More</a>
                         </div>
-                    </div>	
+                    </div>
                 </div>
             </div>
         </div>
