@@ -39,12 +39,12 @@
             <div class="top-menu-container">
                 <h1>Dessus de table</h1>
                 <ul id="menu">
-                    <li data-menuanchor="intro"><a href="#intro" class="sliding">Intro</a></li>
-                    <li data-menuanchor="diversity"><a href="#diversity" class="sliding">Diversity</a></li>
-                    <li data-menuanchor="wood_species"><a href="#wood_species" class="sliding">Wood Species</a></li>
-                    <li data-menuanchor="finishes"><a href="#finishes" class="sliding">Finishes</a></li>
-                    <li data-menuanchor="joints"><a href="#joints" class="sliding">Joints</a></li>
-                    <li data-menuanchor="reinforcements"><a href="#reinforcements" class="sliding">Reinforcements</a></li>
+                  <li data-menuanchor="intro"><a href="#intro" class="sliding">Introduction</a></li>
+                  <li data-menuanchor="diversity"><a href="#diversity" class="sliding">Diversité</a></li>
+                  <li data-menuanchor="wood_species"><a href="#wood_species" class="sliding">Types de bois</a></li>
+                  <li data-menuanchor="finishes"><a href="#finishes" class="sliding">Finitions</a></li>
+                  <li data-menuanchor="joints"><a href="#joints" class="sliding">Assemblages</a></li>
+                  <li data-menuanchor="reinforcements"><a href="#reinforcements" class="sliding">Renforcements</a></li>
                 </ul>
             </div>
         </div>

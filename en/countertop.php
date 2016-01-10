@@ -21,7 +21,7 @@
         }
         fullPage();
         $(window).resize(function () { fullPage(); });
-        
+
     </script>
 </head>
 
@@ -32,9 +32,9 @@
         <div style="display: none" id="hideAll">&nbsp;</div>
         <script>
             document.getElementById("hideAll").style.display = "block";
-            window.onload = function() 
+            window.onload = function()
             { $('#hideAll').fadeOut(200) }
-        </script>    
+        </script>
         <div class="top-menu">
             <div class="top-menu-container">
                 <h1>Countertop</h1>
@@ -44,13 +44,13 @@
                 </ul>
             </div>
         </div>
-        
+
         <div id="fullpage" class="countertops">
             <div class="section" id="section0">
                 <div class="section-in v-center dark">
                     <span class="over-title">Butcher Blocks</span>
                     <h1>Countertop</h1>
-                    <p>Rock Maple, Japanese food-safe glue and a lot of passion. That is what goes into our countertops. And that is why they are amazing. With our unique manufacturing and distribution, we offer an affordable, yet high-quality countertop.</p>
+                    <p>Rock maple, Japanese food-safe glue and lot of passion: that's what goes into our countertops. And that's why they're amazing. Our unique manufacturing and distribution system allows us to offer affordable, yet high-quality countertops.</p>
                     <a href="#other_info" class="btn hidden-xs">Convenience</a>
                 </div>
             </div>
@@ -58,8 +58,8 @@
                 <div class="section-in v-center dark">
                     <span class="over-title">Coutertop</span>
                     <h1>Convenience</h1>
-                    <p class="quote">Useful. Beautiful. Just better.</p>
-                    <p>Not only does it offer a bold look in any kitchen, it’s also incredibly practical. Your whole counter turns into a big beautiful cutting board. Being made of Rock Maple, the surface is naturally hygienic. Perfect for food preparation.</p>
+                    <p class="quote">Practical. Beautiful. Simply better.</p>
+                    <p>Not only will our countertops give any kitchen a bold look, they're also incredibly practical, allowing you to turn your entire counter into a large attractive cutting board. And since they're made of rock maple, the surface is naturally hygienic and perfectly well-suited for preparing food.</p>
                     <a id="modal-link-contact" class="btn hidden-xs">Contact</a>
                 </div>
             </div>
