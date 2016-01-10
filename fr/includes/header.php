@@ -34,55 +34,41 @@
             </div>
         </div>
     </div>
-    
-    <script>
-        $('#butcher-blocks').click(function(){
-            if($(window).width() > 992) {
-                $('#outdoor-menu').fadeOut(50);
-                $('#butcher-block-menu').delay(50).fadeToggle(150);
-            } else {
-                $('#outdoor-menu-xs').fadeOut(150).toggleClass('active');
-                $('#butcher-block-menu-xs').fadeToggle(150).toggleClass('active');
-            }
-        });
-        $('#outdoor').click(function(){
-            if($(window).width() > 992) {
-                $('#butcher-block-menu').fadeOut(50);
-                $('#outdoor-menu').delay(50).fadeToggle(150);
-            } else {
-                $('#butcher-block-menu-xs').fadeOut(150).toggleClass('active');
-                $('#outdoor-menu-xs').fadeToggle(150).toggleClass('active');
-            }
-        });
-    </script>
-        
 </header>
 
 <div id="butcher-block-menu" class="full-header">
-    <div class="side-header" id="table-tops">
+  <div class="close"><span>×</span></div>
+    <div class="side-header sliding-container" id="table-tops">
+      <a href="table-tops.php">
        <div class="overlay"></div>
-       <div class="v-center">
-            <a href="table-tops.php" class="sliding <?php if ($page == "table-tops") {echo 'active';} ?>">Dessus de table</a>
+       <div class="full-center">
+            <span class="sliding">Dessus de Table</span>
        </div>
-    </div><div class="side-header" id="countertop">
-        <div class="overlay"></div>
-        <div class="v-center">
-            <a href="countertop.php" class="sliding <?php if ($page == "countertops") {echo 'active';} ?>">Comptoir</a>
-        </div>
+     </a></div><div class="side-header sliding-container" id="countertop">
+        <a href="countertop.php">
+          <div class="overlay"></div>
+          <div class="full-center">
+              <span class="sliding">Comptoir</span>
+          </div>
+        </a>
     </div>
 </div>
 
 
 <div id="outdoor-menu" class="full-header">
-    <div class="side-header" id="collections">
+  <div class="close"><span>×</span></div>
+    <div class="side-header sliding-container" id="collections">
+      <a href="collections.php">
        <div class="overlay"></div>
-       <div class="v-center">
-            <a href="collections.php" class="sliding <?php if ($page == "collections") {echo 'active';} ?>">Collections</a>
+       <div class="full-center">
+            <span class="sliding">Collections</span>
        </div>
-    </div><div class="side-header" id="materials">
+       </a></div><div class="side-header sliding-container" id="materials">
+      <a href="materials.php">
         <div class="overlay"></div>
-        <div class="v-center">
-            <a href="materials.php" class="sliding <?php if ($page == "materials") {echo 'active';} ?>">Matériaux</a>
+        <div class="full-center">
+            <span class="sliding">Matériaux</span>
         </div>
+        </a>
     </div>
 </div>

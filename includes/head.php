@@ -3,9 +3,10 @@
 <link rel="stylesheet" href="/css/normalize.min.css">
 <link rel="stylesheet" href="/css/main.css">
 
+
 <link rel="icon" type="image/png" href="/img/favicon.png" />
 
-<script src="/js/jquery-1.11.3.min.js"></script>
+<script src="/js/jquery-2.2.0.min.js"></script>
 <script>
     $( document ).ready(function() {
         function recalculateCenterInDiv(){
@@ -22,7 +23,7 @@
             recalculateCenterInDiv();
         });
     });
-   
+
 </script>
 <script src="/js/ga.js"></script>
 

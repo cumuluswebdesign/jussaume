@@ -61,6 +61,22 @@ trigger.onclick = function() {
     toCloseIcon = !toCloseIcon;
 };
 
+/********************************
+SUB MENU ANIMATION
+********************************/
+
+$('#butcher-blocks').click(function(){
+    $('#outdoor-menu').fadeOut(50);
+    $('#butcher-block-menu').delay(50).fadeToggle(200);
+});
+$('#outdoor').click(function(){
+    $('#butcher-block-menu').fadeOut(50);
+    $('#outdoor-menu').delay(50).fadeToggle(200);
+});
+$('.full-header .close').click(function() {
+		$('.full-header').fadeOut(100);
+});
+
 // Modals
 $('[id^=modal-link-]').each(function() {
 	$(this).click(function() {
