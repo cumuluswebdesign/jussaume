@@ -60,7 +60,7 @@
                 <div class="section-in v-center dark">
                     <span class="over-title">Comptoir</span>
                     <h1>Praticabilité</h1>
-                    <p>Pratiques. Beaux. Tout simplement meilleurs.</p>
+                    <p class="quote">Pratiques. Beaux. Tout simplement meilleurs.</p>
                     <p>Non seulement donnent-ils un style audacieux à toute cuisine, ils sont également incroyablement pratiques. Voyez votre comptoir entier se transformer en une immense et belle planche à découper. La surface de travail faite de bois d’érable dur est naturellement hygiénique, donc parfaite pour la préparation des aliments.</p>
                     <a id="modal-link-contact" class="btn hidden-xs">Nous joindre</a>
                 </div>
